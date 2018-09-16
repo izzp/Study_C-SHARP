@@ -1,0 +1,4 @@
+F:\02_GIT\Study_C SHARP\图片移动1\图片移动1\obj\Debug\ResolveAssemblyReference.cache
+F:\02_GIT\Study_C SHARP\图片移动1\图片移动1\obj\Debug\图片移动1.Form1.resources
+F:\02_GIT\Study_C SHARP\图片移动1\图片移动1\obj\Debug\图片移动1.Properties.Resources.resources
+F:\02_GIT\Study_C SHARP\图片移动1\图片移动1\obj\Debug\图片移动1.csproj.GenerateResource.Cache
