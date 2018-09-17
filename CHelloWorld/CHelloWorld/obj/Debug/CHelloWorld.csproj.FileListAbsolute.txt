@@ -1,0 +1,5 @@
+F:\zzp\projects\CHelloWorld\CHelloWorld\bin\Debug\CHelloWorld.exe
+F:\zzp\projects\CHelloWorld\CHelloWorld\bin\Debug\CHelloWorld.pdb
+F:\zzp\projects\CHelloWorld\CHelloWorld\obj\Debug\ResolveAssemblyReference.cache
+F:\zzp\projects\CHelloWorld\CHelloWorld\obj\Debug\CHelloWorld.exe
+F:\zzp\projects\CHelloWorld\CHelloWorld\obj\Debug\CHelloWorld.pdb

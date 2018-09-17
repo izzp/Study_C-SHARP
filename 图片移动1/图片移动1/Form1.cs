@@ -69,11 +69,6 @@ namespace 图片移动1
             {
                 pictureBox1.Left += v * direct;
              }
-            while (pictureBox1.Top < this.Height)
-            {
-                pictureBox1.Top += v * direct;
-            }
-  
         }
         private void button3_Click(object sender, EventArgs e)///暂停
         {
