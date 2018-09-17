@@ -81,6 +81,7 @@ namespace 图片移动1
             timer2.Enabled = false;
             pictureBox1.Top = 0;
             pictureBox1.Left = 0;
+            v = 10;
         }
 
 
