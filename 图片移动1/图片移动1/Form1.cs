@@ -20,19 +20,27 @@ namespace 图片移动1
 
         private void button1_Click(object sender, EventArgs e)///左右移动按钮
         {
-            timer1.Enabled = true;
             timer2.Enabled = false;
+            timer3.Enabled = false;
+            timer1.Enabled = true;
         }
         private void button2_Click(object sender, EventArgs e)///上下移动按钮
         {
-            timer2.Enabled = true;
             timer1.Enabled = false;
+            timer3.Enabled = false;
+            timer2.Enabled = true;
+        }
+        private void button7_Click(object sender, EventArgs e)///环绕运动按钮
+        {
+            timer1.Enabled = false;
+            timer2.Enabled = false;
+            timer3.Enabled = true;          
         }
 
-        private void timer1_Tick(object sender, EventArgs e)///左右移动
+        private void timer1_Tick(object sender, EventArgs e)///左右运动
         {      
             pictureBox1.Left += v * direct;
-            if (pictureBox1.Left > this.Width - pictureBox1.Width)
+            if (pictureBox1.Right > this.Width)
             {
                 direct = -1;
             }
@@ -43,10 +51,10 @@ namespace 图片移动1
 
         }
 
-        private void timer2_Tick(object sender, EventArgs e)///上下移动
+        private void timer2_Tick(object sender, EventArgs e)///上下运动
         {        
             pictureBox1.Top += v * direct;
-            if (pictureBox1.Top > this.Height - pictureBox1.Height)
+            if (pictureBox1.Bottom > this.Height)
             {
                 direct = -1;
             }
@@ -55,7 +63,18 @@ namespace 图片移动1
                 direct = 1;
             }
         }
-
+        private void timer3_Tick(object sender, EventArgs e)///环绕运动
+        {
+            while (pictureBox1.Right < this.Width)
+            {
+                pictureBox1.Left += v * direct;
+             }
+            while (pictureBox1.Top < this.Height)
+            {
+                pictureBox1.Top += v * direct;
+            }
+  
+        }
         private void button3_Click(object sender, EventArgs e)///暂停
         {
                 timer1.Stop();  
@@ -83,7 +102,5 @@ namespace 图片移动1
             pictureBox1.Left = 0;
             v = 10;
         }
-
-
     }
 }
