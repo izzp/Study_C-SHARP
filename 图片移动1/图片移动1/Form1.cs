@@ -18,18 +18,18 @@ namespace 图片移动1
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)///左右移动按钮
         {
             timer1.Enabled = true;
             timer2.Enabled = false;
         }
-        private void button2_Click(object sender, EventArgs e)
+        private void button2_Click(object sender, EventArgs e)///上下移动按钮
         {
             timer2.Enabled = true;
             timer1.Enabled = false;
         }
 
-        private void timer1_Tick(object sender, EventArgs e)
+        private void timer1_Tick(object sender, EventArgs e)///左右移动
         {      
             pictureBox1.Left += v * direct;
             if (pictureBox1.Left > this.Width - pictureBox1.Width)
@@ -43,7 +43,7 @@ namespace 图片移动1
 
         }
 
-        private void timer2_Tick(object sender, EventArgs e)
+        private void timer2_Tick(object sender, EventArgs e)///上下移动
         {        
             pictureBox1.Top += v * direct;
             if (pictureBox1.Top > this.Height - pictureBox1.Height)
@@ -56,7 +56,7 @@ namespace 图片移动1
             }
         }
 
-        private void button3_Click(object sender, EventArgs e)
+        private void button3_Click(object sender, EventArgs e)///暂停
         {
             if (timer1.Enabled = true) 
             {
@@ -68,12 +68,12 @@ namespace 图片移动1
             }
         }
     
-        private void button4_Click(object sender, EventArgs e)
+        private void button4_Click(object sender, EventArgs e)///加速
         {
             v += 10;
         }
 
-        private void button5_Click(object sender, EventArgs e)
+        private void button5_Click(object sender, EventArgs e)///减速
         {
             if (v > 5)
             {
@@ -81,7 +81,7 @@ namespace 图片移动1
             }
         }
 
-        private void button6_Click(object sender, EventArgs e)
+        private void button6_Click(object sender, EventArgs e)///复位
         {
             timer1.Enabled = false;
             timer2.Enabled = false;
