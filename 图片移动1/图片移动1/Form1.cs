@@ -65,15 +65,13 @@ namespace 图片移动1
         }
         private void timer3_Tick(object sender, EventArgs e)//环绕运动
         {
-            while (pictureBox1.Right < this.Width)
-            {
-                pictureBox1.Left += v * direct;
-             }
         }
         private void button3_Click(object sender, EventArgs e)//暂停
         {
                 timer1.Stop();  
                 timer2.Stop();
+                timer3.Stop();
+
         }
     
         private void button4_Click(object sender, EventArgs e)//加速
@@ -93,6 +91,7 @@ namespace 图片移动1
         {
             timer1.Enabled = false;
             timer2.Enabled = false;
+            timer3.Enabled = false;
             pictureBox1.Top = 0;
             pictureBox1.Left = 0;
             v = 10;

@@ -66,7 +66,6 @@
             // 
             // timer1
             // 
-            this.timer1.Interval = 1;
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
             // button2
@@ -81,7 +80,6 @@
             // 
             // timer2
             // 
-            this.timer2.Interval = 1;
             this.timer2.Tick += new System.EventHandler(this.timer2_Tick);
             // 
             // button3
@@ -154,6 +152,7 @@
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.button1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MinimumSize = new System.Drawing.Size(842, 481);
             this.Name = "Form1";
             this.Text = "图片移动";
             this.Load += new System.EventHandler(this.Form1_Load);
