@@ -58,14 +58,8 @@ namespace 图片移动1
 
         private void button3_Click(object sender, EventArgs e)///暂停
         {
-            if (timer1.Enabled = true) 
-            {
                 timer1.Stop();  
-            }
-            else if (timer2.Enabled = true)
-            {
                 timer2.Stop();
-            }
         }
     
         private void button4_Click(object sender, EventArgs e)///加速
