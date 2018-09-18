@@ -12,6 +12,8 @@ namespace 图片移动1
     public partial class Form1 : Form
     {
         int direct = 1;
+        int h = 1;
+        int i = 0; 
         int v = 10;
         public Form1()
         {
@@ -38,7 +40,7 @@ namespace 图片移动1
         }
 
         private void timer1_Tick(object sender, EventArgs e)//左右运动
-        {      
+        {    
             pictureBox1.Left += v * direct;
             if (pictureBox1.Right > this.Width)
             {
@@ -65,6 +67,34 @@ namespace 图片移动1
         }
         private void timer3_Tick(object sender, EventArgs e)//环绕运动
         {
+            pictureBox1.Top += v * i;
+            pictureBox1.Left += v * h;
+           
+            if (pictureBox1.Right > Width)
+            {
+                h = 0;
+                i = 1;
+                pictureBox1.Top += v * i;
+            }
+            if (pictureBox1.Bottom > Height)
+            {
+                h = -1;
+                i = 0; 
+                
+            }
+
+
+            if (pictureBox1.Left <0)
+            {
+                i = -1;
+                h = 0;
+            }
+
+            if (pictureBox1.Top< 0)
+            {
+                h = 1;
+                i = 0;
+            }
         }
         private void button3_Click(object sender, EventArgs e)//暂停
         {
