@@ -1,0 +1,5 @@
+F:\zzp\projects\转义字符\转义字符\bin\Debug\转义字符.exe
+F:\zzp\projects\转义字符\转义字符\bin\Debug\转义字符.pdb
+F:\zzp\projects\转义字符\转义字符\obj\Debug\ResolveAssemblyReference.cache
+F:\zzp\projects\转义字符\转义字符\obj\Debug\转义字符.exe
+F:\zzp\projects\转义字符\转义字符\obj\Debug\转义字符.pdb

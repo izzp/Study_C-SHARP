@@ -1,0 +1,5 @@
+F:\zzp\projects\Caboutage\Caboutage\obj\Debug\ResolveAssemblyReference.cache
+F:\zzp\projects\Caboutage\Caboutage\bin\Debug\Caboutage.exe
+F:\zzp\projects\Caboutage\Caboutage\bin\Debug\Caboutage.pdb
+F:\zzp\projects\Caboutage\Caboutage\obj\Debug\Caboutage.exe
+F:\zzp\projects\Caboutage\Caboutage\obj\Debug\Caboutage.pdb
