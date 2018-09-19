@@ -1,0 +1,10 @@
+F:\A-------------ZZP\projects\Cfloat+decimal\Cfloat+decimal\obj\Debug\ResolveAssemblyReference.cache
+F:\A-------------ZZP\projects\Cfloat+decimal\Cfloat+decimal\bin\Debug\Cfloat+decimal.exe
+F:\A-------------ZZP\projects\Cfloat+decimal\Cfloat+decimal\bin\Debug\Cfloat+decimal.pdb
+F:\A-------------ZZP\projects\Cfloat+decimal\Cfloat+decimal\obj\Debug\Cfloat+decimal.exe
+F:\A-------------ZZP\projects\Cfloat+decimal\Cfloat+decimal\obj\Debug\Cfloat+decimal.pdb
+F:\02_GIT\Study_C SHARP\Cfloat+decimal\Cfloat+decimal\obj\Debug\Cfloat+decimal.exe
+F:\02_GIT\Study_C SHARP\Cfloat+decimal\Cfloat+decimal\obj\Debug\Cfloat+decimal.pdb
+F:\02_GIT\Study_C SHARP\Cfloat+decimal\Cfloat+decimal\bin\Debug\Cfloat+decimal.exe
+F:\02_GIT\Study_C SHARP\Cfloat+decimal\Cfloat+decimal\bin\Debug\Cfloat+decimal.pdb
+F:\02_GIT\Study_C SHARP\Cfloat+decimal\Cfloat+decimal\obj\Debug\ResolveAssemblyReference.cache
