@@ -26,7 +26,6 @@ namespace Cfloat_decimal
                 Console.WriteLine("转换失败");
             }
 
-
             //测试decimal
             Console.WriteLine(decimal.MinusOne);
             Console.WriteLine(decimal.Add(1.2m, 3.4m));
