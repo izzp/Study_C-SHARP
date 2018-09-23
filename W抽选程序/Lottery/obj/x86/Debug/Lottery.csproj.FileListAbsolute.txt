@@ -1,0 +1,43 @@
+E:\Project\抽奖\Lottery\bin\Debug\Lottery.exe
+E:\Project\抽奖\Lottery\bin\Debug\Lottery.pdb
+E:\Project\抽奖\Lottery\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\Project\抽奖\Lottery\obj\x86\Debug\Lottery.FormPrize.resources
+E:\Project\抽奖\Lottery\obj\x86\Debug\Lottery.Properties.Resources.resources
+E:\Project\抽奖\Lottery\obj\x86\Debug\Lottery.exe
+E:\Project\抽奖\Lottery\obj\x86\Debug\Lottery.pdb
+G:\07_我的开源项目\抽奖\Lottery\obj\x86\Debug\Lottery.exe
+G:\07_我的开源项目\抽奖\Lottery\obj\x86\Debug\Lottery.pdb
+C:\Users\dell\Desktop\Lottery-master\Lottery\obj\x86\Debug\Lottery.csprojResolveAssemblyReference.cache
+C:\Users\dell\Desktop\Lottery-master\Lottery\obj\x86\Debug\Lottery.FormPrize.resources
+C:\Users\dell\Desktop\Lottery-master\Lottery\obj\x86\Debug\Lottery.Properties.Resources.resources
+C:\Users\dell\Desktop\Lottery-master\Lottery\obj\x86\Debug\Lottery.csproj.GenerateResource.Cache
+C:\Users\dell\Desktop\Lottery-master\Lottery\obj\x86\Debug\Lottery.exe
+C:\Users\dell\Desktop\Lottery-master\Lottery\obj\x86\Debug\Lottery.pdb
+C:\Users\dell\Desktop\Lottery-master\Lottery\bin\Debug\Lottery.exe
+C:\Users\dell\Desktop\Lottery-master\Lottery\bin\Debug\Lottery.pdb
+C:\Users\dell\Desktop\Lottery-master - 副本 (2)\Lottery\obj\x86\Debug\Lottery.exe
+C:\Users\dell\Desktop\Lottery-master - 副本 (2)\Lottery\obj\x86\Debug\Lottery.pdb
+C:\Users\dell\Desktop\抽选 - 副本\Lottery\obj\x86\Debug\Lottery.csprojResolveAssemblyReference.cache
+C:\Users\dell\Desktop\抽选 - 副本\Lottery\obj\x86\Debug\Lottery.FormPrize.resources
+C:\Users\dell\Desktop\抽选 - 副本\Lottery\obj\x86\Debug\Lottery.Properties.Resources.resources
+C:\Users\dell\Desktop\抽选 - 副本\Lottery\obj\x86\Debug\Lottery.csproj.GenerateResource.Cache
+C:\Users\dell\Desktop\抽选 - 副本\Lottery\bin\Debug\王导专用抽选.exe.manifest
+C:\Users\dell\Desktop\抽选 - 副本\Lottery\bin\Debug\王导专用抽选.application
+C:\Users\dell\Desktop\抽选 - 副本\Lottery\bin\Debug\王导专用抽选.exe
+C:\Users\dell\Desktop\抽选 - 副本\Lottery\bin\Debug\王导专用抽选.pdb
+C:\Users\dell\Desktop\抽选 - 副本\Lottery\obj\x86\Debug\王导专用抽选.exe.manifest
+C:\Users\dell\Desktop\抽选 - 副本\Lottery\obj\x86\Debug\王导专用抽选.application
+C:\Users\dell\Desktop\抽选 - 副本\Lottery\obj\x86\Debug\王导专用抽选.exe
+C:\Users\dell\Desktop\抽选 - 副本\Lottery\obj\x86\Debug\王导专用抽选.pdb
+C:\Users\dell\Desktop\抽选 - 副本 - 副本\Lottery\obj\x86\Debug\王导专用抽选.exe
+C:\Users\dell\Desktop\抽选 - 副本 - 副本\Lottery\obj\x86\Debug\王导专用抽选.pdb
+C:\Users\dell\Desktop\抽选 - 副本 - 副本\Lottery\bin\Debug\王导专用抽选.exe.manifest
+C:\Users\dell\Desktop\抽选 - 副本 - 副本\Lottery\bin\Debug\王导专用抽选.application
+C:\Users\dell\Desktop\抽选 - 副本 - 副本\Lottery\bin\Debug\王导专用抽选.exe
+C:\Users\dell\Desktop\抽选 - 副本 - 副本\Lottery\bin\Debug\王导专用抽选.pdb
+C:\Users\dell\Desktop\抽选 - 副本 - 副本\Lottery\obj\x86\Debug\Lottery.csprojResolveAssemblyReference.cache
+C:\Users\dell\Desktop\抽选 - 副本 - 副本\Lottery\obj\x86\Debug\Lottery.FormPrize.resources
+C:\Users\dell\Desktop\抽选 - 副本 - 副本\Lottery\obj\x86\Debug\Lottery.Properties.Resources.resources
+C:\Users\dell\Desktop\抽选 - 副本 - 副本\Lottery\obj\x86\Debug\Lottery.csproj.GenerateResource.Cache
+C:\Users\dell\Desktop\抽选 - 副本 - 副本\Lottery\obj\x86\Debug\王导专用抽选.exe.manifest
+C:\Users\dell\Desktop\抽选 - 副本 - 副本\Lottery\obj\x86\Debug\王导专用抽选.application
