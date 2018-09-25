@@ -1,0 +1,8 @@
+F:\projects\WPictureMove\WPictureMove\bin\Debug\WPictureMove.exe
+F:\projects\WPictureMove\WPictureMove\bin\Debug\WPictureMove.pdb
+F:\projects\WPictureMove\WPictureMove\obj\Debug\ResolveAssemblyReference.cache
+F:\projects\WPictureMove\WPictureMove\obj\Debug\WPictureMove.Form1.resources
+F:\projects\WPictureMove\WPictureMove\obj\Debug\WPictureMove.Properties.Resources.resources
+F:\projects\WPictureMove\WPictureMove\obj\Debug\WPictureMove.csproj.GenerateResource.Cache
+F:\projects\WPictureMove\WPictureMove\obj\Debug\WPictureMove.exe
+F:\projects\WPictureMove\WPictureMove\obj\Debug\WPictureMove.pdb
