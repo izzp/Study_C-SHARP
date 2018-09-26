@@ -1,0 +1,173 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Windows.Forms;
+
+namespace WPictureMove
+{
+    public partial class Form1 : Form
+    {
+        int a=1;//环周运动时指定图片在哪个边上运动，1：上边，2：右边，3：下边，4：左边
+
+        int style = 1;//指定运动方式，1：左右，2：上下，3：环周
+
+        int step = 1;//步长
+
+        int v =10;//基础速度倍数，不然速度太慢
+        
+        public Form1()
+        {
+            InitializeComponent();
+        }
+        private void btnUpDown_Click(object sender, EventArgs e)//上下运动
+        {
+            timer1.Enabled = true;
+            style = 2;
+            pictureBox1.Left = 0;
+            pictureBox1.Top = 0;
+            this.Text = "正在做上下运动";
+        }
+
+        private void btnLeftRight_Click(object sender, EventArgs e)//左右运动
+        {
+            timer1.Enabled = true;
+            style = 1;
+            pictureBox1.Left = 0;
+            pictureBox1.Top = 0;
+            this.Text = "正在做左右运动";
+        }
+        private void btnCircle_Click(object sender, EventArgs e)//环周
+        {
+            timer1.Enabled = true;
+            style = 3;
+            pictureBox1.Left = 0;
+            pictureBox1.Top = 0;
+            this.Text = "正在做环周运动";
+        }
+       
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            label1.Text = "当前位置：（" + pictureBox1.Left + "，" + pictureBox1.Top + "）";
+            switch (style)
+            {
+                case 1:
+                    {
+                        pictureBox1.Left += step * v;
+                        if (pictureBox1.Right > this.Width)
+                        {
+                            step = -1;
+                        }
+                        if (pictureBox1.Left < 0)
+                        {
+                            step = 1;
+                        }
+
+                    }
+                    break;
+                case 2:
+                    {
+                        pictureBox1.Top += v * step;
+                        if (pictureBox1.Bottom > this.Height)
+                        {
+                            step = -1;
+                        }
+                        if (pictureBox1.Top < 0)
+                        {
+                            step = 1;
+                        }
+                    }
+                    break;
+                case 3:
+                    {
+                        if (a == 1)//上边
+                        {
+                            if (pictureBox1.Left < this.Width - pictureBox1.Width-20)
+                            {
+                                pictureBox1.Left += step*v;
+                            }
+                            else
+                            {
+                                a = 2;
+                            }
+                        }
+                        if (a == 2)//右边
+                        {
+                            if (pictureBox1.Top < this.Height - pictureBox1.Height-40)
+                            {
+                                pictureBox1.Top += step*v;
+                            }
+                            else
+                            {
+                                a = 3;
+                            }
+                        }
+                        if (a == 3)//下边
+                        {
+                            if (pictureBox1.Left > 0)
+                            {
+                                pictureBox1.Left -= step*v;
+                            }
+                            else
+                            {
+                                a = 4;
+                            }
+                        }
+                        if (a == 4)//左边
+                        {
+                            if (pictureBox1.Top > 0)
+                            {
+                                pictureBox1.Top -= step*v;
+                            }
+                            else
+                            {
+                                a = 1;
+                            }
+                        }
+                        break;
+                    }
+                
+            }
+        }
+
+        private void btnSpeedUp_Click(object sender, EventArgs e)//加速
+        {
+            btnSpeedDown.Enabled = true;
+            if (timer1.Interval > 1)
+            {
+                timer1.Interval = timer1.Interval / 2;
+            }
+            else
+            {
+                btnSpeedUp.Enabled = false;
+            }
+        }
+
+
+        private void btnSpeedDown_Click(object sender, EventArgs e)//减速
+        {
+            btnSpeedUp.Enabled = true;
+            if (timer1.Interval <1000)
+            {
+                timer1.Interval = timer1.Interval * 2;
+            }
+            else
+            {
+                btnSpeedDown.Enabled = false;
+            }
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+    }
+}
