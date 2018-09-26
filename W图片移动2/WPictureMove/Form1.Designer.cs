@@ -120,7 +120,7 @@
             // 
             // btnReset
             // 
-            this.btnReset.Location = new System.Drawing.Point(441, 146);
+            this.btnReset.Location = new System.Drawing.Point(440, 148);
             this.btnReset.Name = "btnReset";
             this.btnReset.Size = new System.Drawing.Size(75, 23);
             this.btnReset.TabIndex = 6;
@@ -171,6 +171,7 @@
             this.Name = "Form1";
             this.Text = "图片移动";
             this.Load += new System.EventHandler(this.Form1_Load);
+            this.Click += new System.EventHandler(this.Form1_Click);
             this.Resize += new System.EventHandler(this.Form1_Resize);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);

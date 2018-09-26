@@ -1,8 +1,0 @@
-F:\02_GIT\Study_C SHARP\W图片移动2\WPictureMove\bin\Release\WPictureMove.exe
-F:\02_GIT\Study_C SHARP\W图片移动2\WPictureMove\bin\Release\WPictureMove.pdb
-F:\02_GIT\Study_C SHARP\W图片移动2\WPictureMove\obj\Release\ResolveAssemblyReference.cache
-F:\02_GIT\Study_C SHARP\W图片移动2\WPictureMove\obj\Release\WPictureMove.Form1.resources
-F:\02_GIT\Study_C SHARP\W图片移动2\WPictureMove\obj\Release\WPictureMove.Properties.Resources.resources
-F:\02_GIT\Study_C SHARP\W图片移动2\WPictureMove\obj\Release\WPictureMove.csproj.GenerateResource.Cache
-F:\02_GIT\Study_C SHARP\W图片移动2\WPictureMove\obj\Release\WPictureMove.exe
-F:\02_GIT\Study_C SHARP\W图片移动2\WPictureMove\obj\Release\WPictureMove.pdb

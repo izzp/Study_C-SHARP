@@ -198,5 +198,18 @@ namespace WPictureMove
                 pictureBox1.Top = this.Height - pictureBox1.Height - 30;
             }
         }
+
+        private void Form1_Click(object sender, EventArgs e)
+        {
+            if (timer1.Enabled == true)
+            {
+                timer1.Enabled = false;
+            }
+            else
+            {
+                timer1.Enabled = true;
+            }
+
+        }
     }
 }
