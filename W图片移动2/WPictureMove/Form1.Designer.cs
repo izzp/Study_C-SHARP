@@ -38,6 +38,7 @@
             this.btnLeftRight = new System.Windows.Forms.Button();
             this.btnSpeedDown = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
+            this.btnReset = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -115,13 +116,25 @@
             this.label1.TabIndex = 5;
             this.label1.Text = "当前位置：";
             // 
+            // btnReset
+            // 
+            this.btnReset.Location = new System.Drawing.Point(441, 146);
+            this.btnReset.Name = "btnReset";
+            this.btnReset.Size = new System.Drawing.Size(75, 23);
+            this.btnReset.TabIndex = 6;
+            this.btnReset.Text = "复位";
+            this.btnReset.UseCompatibleTextRendering = true;
+            this.btnReset.UseVisualStyleBackColor = true;
+            this.btnReset.Click += new System.EventHandler(this.btnReset_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(608, 308);
+            this.Controls.Add(this.btnReset);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnLeftRight);
             this.Controls.Add(this.btnUpDown);
@@ -130,6 +143,7 @@
             this.Controls.Add(this.btnCircle);
             this.Controls.Add(this.pictureBox1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MinimumSize = new System.Drawing.Size(624, 347);
             this.Name = "Form1";
             this.Text = "图片移动";
             this.Load += new System.EventHandler(this.Form1_Load);
@@ -149,6 +163,7 @@
         private System.Windows.Forms.Button btnLeftRight;
         private System.Windows.Forms.Button btnSpeedDown;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button btnReset;
     }
 }
 

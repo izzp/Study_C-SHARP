@@ -29,7 +29,7 @@ namespace WPictureMove
             style = 2;
             pictureBox1.Left = 0;
             pictureBox1.Top = 0;
-            this.Text = "正在做上下运动";
+            this.Text = "正在做上下运动，速度为:" + 1000/timer1.Interval + "";
         }
 
         private void btnLeftRight_Click(object sender, EventArgs e)//左右运动
@@ -38,7 +38,7 @@ namespace WPictureMove
             style = 1;
             pictureBox1.Left = 0;
             pictureBox1.Top = 0;
-            this.Text = "正在做左右运动";
+            this.Text = "正在做左右运动，速度为:" + 1000/timer1.Interval + "";
         }
         private void btnCircle_Click(object sender, EventArgs e)//环周
         {
@@ -46,7 +46,7 @@ namespace WPictureMove
             style = 3;
             pictureBox1.Left = 0;
             pictureBox1.Top = 0;
-            this.Text = "正在做环周运动";
+            this.Text = "正在做环周运动，速度为:" + 1000/timer1.Interval + "";
         }
        
         private void timer1_Tick(object sender, EventArgs e)
@@ -168,6 +168,14 @@ namespace WPictureMove
         private void pictureBox1_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void btnReset_Click(object sender, EventArgs e)//复位
+        {
+            timer1.Enabled = false;
+            pictureBox1.Top = 0;
+            pictureBox1.Left = 0;
+            timer1.Interval = 100;
         }
     }
 }
