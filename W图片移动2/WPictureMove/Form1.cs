@@ -11,7 +11,7 @@ namespace WPictureMove
 {
     public partial class Form1 : Form
     {
-        int a=1;//环周运动时指定图片在‘哪个边上运动，1：上边，2：右边，3：下边，4：左边
+        int a=1;//环周运动时指定图片在哪个边上运动，1：上边，2：右边，3：下边，4：左边
 
         int style = 1;//指定运动方式，1：左右，2：上下，3：环周
 
@@ -71,7 +71,7 @@ namespace WPictureMove
                     {
                         this.Text = "正在做上下运动，速度为:" + 1000 / timer1.Interval + "";
                         pictureBox1.Top += v * step;
-                        if (pictureBox1.Bottom > this.Height)
+                        if (pictureBox1.Top > this.Height-2*pictureBox1.Height)
                         {
                             step = -1;
                         }
@@ -175,6 +175,28 @@ namespace WPictureMove
             pictureBox1.Top = 0;
             pictureBox1.Left = 0;
             timer1.Interval = 100;
+        }
+        private void btnWindowsBig_Click(object sender, EventArgs e)//窗口变大
+        {
+            this.Width += 50;
+            this.Height += 25;
+        }
+        private void btnWindowsSmall_Click_1(object sender, EventArgs e)//窗口变小
+        {
+            this.Width -= 50;
+            this.Height -= 25;
+        }
+
+        private void Form1_Resize(object sender, EventArgs e)//窗口变大或缩小的同时，使运动图片跟随
+        {
+            if (a == 2 && style == 3)
+            {
+                pictureBox1.Left = this.Width - pictureBox1.Width - 10;
+            }
+            if (a == 3 && style == 3)
+            {
+                pictureBox1.Top = this.Height - pictureBox1.Height - 30;
+            }
         }
     }
 }
