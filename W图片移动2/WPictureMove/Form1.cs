@@ -17,7 +17,7 @@ namespace WPictureMove
 
         int step = 1;//步长
 
-        int v =10;//基础速度倍数，不然速度太慢
+        int v =10;//基础速度倍数，不然速度太慢...
         
         public Form1()
         {
@@ -29,7 +29,7 @@ namespace WPictureMove
             style = 2;
             pictureBox1.Left = 0;
             pictureBox1.Top = 0;
-            this.Text = "正在做上下运动，速度为:" + 1000/timer1.Interval + "";
+            
         }
 
         private void btnLeftRight_Click(object sender, EventArgs e)//左右运动
@@ -38,7 +38,6 @@ namespace WPictureMove
             style = 1;
             pictureBox1.Left = 0;
             pictureBox1.Top = 0;
-            this.Text = "正在做左右运动，速度为:" + 1000/timer1.Interval + "";
         }
         private void btnCircle_Click(object sender, EventArgs e)//环周
         {
@@ -46,7 +45,6 @@ namespace WPictureMove
             style = 3;
             pictureBox1.Left = 0;
             pictureBox1.Top = 0;
-            this.Text = "正在做环周运动，速度为:" + 1000/timer1.Interval + "";
         }
        
         private void timer1_Tick(object sender, EventArgs e)
@@ -54,8 +52,9 @@ namespace WPictureMove
             label1.Text = "当前位置：（" + pictureBox1.Left + "，" + pictureBox1.Top + "）";
             switch (style)
             {
-                case 1:
+                case 1://左右
                     {
+                        this.Text = "正在做左右运动，速度为:" + 1000 / timer1.Interval + "";
                         pictureBox1.Left += step * v;
                         if (pictureBox1.Right > this.Width)
                         {
@@ -68,8 +67,9 @@ namespace WPictureMove
 
                     }
                     break;
-                case 2:
+                case 2://上下
                     {
+                        this.Text = "正在做上下运动，速度为:" + 1000 / timer1.Interval + "";
                         pictureBox1.Top += v * step;
                         if (pictureBox1.Bottom > this.Height)
                         {
@@ -81,8 +81,9 @@ namespace WPictureMove
                         }
                     }
                     break;
-                case 3:
+                case 3://环周
                     {
+                        this.Text = "正在做环周运动，速度为:" + 1000 / timer1.Interval + "";
                         if (a == 1)//上边
                         {
                             if (pictureBox1.Left < this.Width - pictureBox1.Width-20)
@@ -150,7 +151,7 @@ namespace WPictureMove
         private void btnSpeedDown_Click(object sender, EventArgs e)//减速
         {
             btnSpeedUp.Enabled = true;
-            if (timer1.Interval <1000)
+            if (timer1.Interval <999)
             {
                 timer1.Interval = timer1.Interval * 2;
             }
