@@ -11,7 +11,7 @@ namespace WPictureMove
 {
     public partial class Form1 : Form
     {
-        int a=1;//环周运动时指定图片在哪个边上运动，1：上边，2：右边，3：下边，4：左边
+        int a=1;//环周运动时指定图片在‘哪个边上运动，1：上边，2：右边，3：下边，4：左边
 
         int style = 1;//指定运动方式，1：左右，2：上下，3：环周
 
@@ -146,8 +146,6 @@ namespace WPictureMove
                 btnSpeedUp.Enabled = false;
             }
         }
-
-
         private void btnSpeedDown_Click(object sender, EventArgs e)//减速
         {
             btnSpeedUp.Enabled = true;
