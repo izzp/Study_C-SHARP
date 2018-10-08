@@ -22,32 +22,7 @@ namespace WPictureMove
         public Form1()
         {
             InitializeComponent();
-        }
-        private void btnUpDown_Click(object sender, EventArgs e)//上下运动
-        {
-            timer1.Enabled = true;
-            style = 2;
-            pictureBox1.Left = 0;
-            pictureBox1.Top = 0;
-            
-        }
-
-        private void btnLeftRight_Click(object sender, EventArgs e)//左右运动
-        {
-            timer1.Enabled = true;
-            style = 1;
-            pictureBox1.Left = 0;
-            pictureBox1.Top = 0;
-        }
-        private void btnCircle_Click(object sender, EventArgs e)//环周
-        {
-            step = 1;
-            timer1.Enabled = true;
-            style = 3;
-            pictureBox1.Left = 0;
-            pictureBox1.Top = 0;
-        }
-       
+        }      
         private void timer1_Tick(object sender, EventArgs e)
         {
             label1.Text = "当前位置：（" + pictureBox1.Left + "，" + pictureBox1.Top + "）";
@@ -135,31 +110,6 @@ namespace WPictureMove
             }
         }
 
-        private void btnSpeedUp_Click(object sender, EventArgs e)//加速
-        {
-            btnSpeedDown.Enabled = true;
-            if (timer1.Interval > 1)
-            {
-                timer1.Interval = timer1.Interval / 2;
-            }
-            else
-            {
-                btnSpeedUp.Enabled = false;
-            }
-        }
-        private void btnSpeedDown_Click(object sender, EventArgs e)//减速
-        {
-            btnSpeedUp.Enabled = true;
-            if (timer1.Interval <999)
-            {
-                timer1.Interval = timer1.Interval * 2;
-            }
-            else
-            {
-                btnSpeedDown.Enabled = false;
-            }
-        }
-
         private void Form1_Load(object sender, EventArgs e)
         {
 
@@ -169,25 +119,6 @@ namespace WPictureMove
         {
 
         }
-
-        private void btnReset_Click(object sender, EventArgs e)//复位
-        {
-            timer1.Enabled = false;
-            pictureBox1.Top = 0;
-            pictureBox1.Left = 0;
-            timer1.Interval = 100;
-        }
-        private void btnWindowsBig_Click(object sender, EventArgs e)//窗口变大
-        {
-            this.Width += 50;
-            this.Height += 25;
-        }
-        private void btnWindowsSmall_Click_1(object sender, EventArgs e)//窗口变小
-        {
-            this.Width -= 50;
-            this.Height -= 25;
-        }
-
         private void Form1_Resize(object sender, EventArgs e)//窗口变大或缩小的同时，使运动图片跟随
         {
             if (a == 2 && style == 3)
@@ -211,6 +142,77 @@ namespace WPictureMove
                 timer1.Enabled = true;
             }
 
+        }
+
+        private void updownToolStripMenuItem_Click(object sender, EventArgs e)//上下运动
+        {
+            timer1.Enabled = true;
+            style = 2;
+            pictureBox1.Left = 0;
+            pictureBox1.Top = 0;
+        }
+
+        private void LRToolStripMenuItem_Click(object sender, EventArgs e)//左右运动
+        {
+            timer1.Enabled = true;
+            style = 1;
+            pictureBox1.Left = 0;
+            pictureBox1.Top = 0;
+        }
+
+        private void CircleToolStripMenuItem_Click(object sender, EventArgs e)//环周
+        {
+            step = 1;
+            timer1.Enabled = true;
+            style = 3;
+            pictureBox1.Left = 0;
+            pictureBox1.Top = 0;
+        }
+
+        private void SpeedUpToolStripMenuItem_Click(object sender, EventArgs e)//加速
+        {
+            SpeedDownToolStripMenuItem.Enabled = true;
+            if (timer1.Interval > 1)
+            {
+                timer1.Interval = timer1.Interval / 2;
+            }
+            else
+            {
+                SpeedUpToolStripMenuItem.Enabled = false;
+            }
+        }
+
+        private void SpeedDownToolStripMenuItem_Click(object sender, EventArgs e)//减速
+        {
+            SpeedUpToolStripMenuItem.Enabled = true;
+            if (timer1.Interval < 999)
+            {
+                timer1.Interval = timer1.Interval * 2;
+            }
+            else
+            {
+                SpeedDownToolStripMenuItem.Enabled = false;
+            }
+        }
+
+        private void ResetToolStripMenuItem_Click(object sender, EventArgs e)//复位
+        {
+            timer1.Enabled = false;
+            pictureBox1.Top = 0;
+            pictureBox1.Left = 0;
+            timer1.Interval = 100;
+        }
+
+        private void WindowsBigToolStripMenuItem_Click(object sender, EventArgs e)//窗口变大
+        {
+            this.Width += 50;
+            this.Height += 25;
+        }
+
+        private void WindowsSmallToolStripMenuItem_Click(object sender, EventArgs e)//窗口变小
+        {
+            this.Width -= 50;
+            this.Height -= 25;
         }
     }
 }
