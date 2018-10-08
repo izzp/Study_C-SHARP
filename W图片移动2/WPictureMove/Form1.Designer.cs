@@ -32,7 +32,6 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
-            this.label1 = new System.Windows.Forms.Label();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.运动方向ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.updownToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -44,6 +43,7 @@
             this.SpeedUpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.SpeedDownToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ResetToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.XYToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -51,7 +51,7 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(0, 27);
+            this.pictureBox1.Location = new System.Drawing.Point(562, 9);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(42, 42);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -63,15 +63,6 @@
             // 
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(451, 9);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(65, 12);
-            this.label1.TabIndex = 5;
-            this.label1.Text = "当前位置：";
-            // 
             // menuStrip1
             // 
             this.menuStrip1.Dock = System.Windows.Forms.DockStyle.Bottom;
@@ -80,12 +71,14 @@
             this.窗口ToolStripMenuItem,
             this.SpeedUpToolStripMenuItem,
             this.SpeedDownToolStripMenuItem,
-            this.ResetToolStripMenuItem});
+            this.ResetToolStripMenuItem,
+            this.XYToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 283);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(608, 25);
             this.menuStrip1.TabIndex = 9;
             this.menuStrip1.Text = "menuStrip1";
+            this.menuStrip1.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.menuStrip1_ItemClicked);
             // 
             // 运动方向ToolStripMenuItem
             // 
@@ -162,6 +155,12 @@
             this.ResetToolStripMenuItem.Text = "复位";
             this.ResetToolStripMenuItem.Click += new System.EventHandler(this.ResetToolStripMenuItem_Click);
             // 
+            // XYToolStripMenuItem
+            // 
+            this.XYToolStripMenuItem.Name = "XYToolStripMenuItem";
+            this.XYToolStripMenuItem.Size = new System.Drawing.Size(80, 21);
+            this.XYToolStripMenuItem.Text = "当前位置：";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
@@ -169,7 +168,6 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(608, 308);
-            this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.menuStrip1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
@@ -192,7 +190,6 @@
 
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Timer timer1;
-        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem 运动方向ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem updownToolStripMenuItem;
@@ -204,6 +201,7 @@
         private System.Windows.Forms.ToolStripMenuItem SpeedUpToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem SpeedDownToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem ResetToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem XYToolStripMenuItem;
     }
 }
 

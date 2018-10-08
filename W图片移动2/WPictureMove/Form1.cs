@@ -25,7 +25,7 @@ namespace WPictureMove
         }      
         private void timer1_Tick(object sender, EventArgs e)
         {
-            label1.Text = "当前位置：（" + pictureBox1.Left + "，" + pictureBox1.Top + "）";
+            XYToolStripMenuItem.Text = "当前位置：（" + pictureBox1.Left + "，" + pictureBox1.Top + "）";
             switch (style)
             {
                 case 1://左右
@@ -197,6 +197,7 @@ namespace WPictureMove
 
         private void ResetToolStripMenuItem_Click(object sender, EventArgs e)//复位
         {
+            this.Text = "现在是复位状态";
             timer1.Enabled = false;
             pictureBox1.Top = 0;
             pictureBox1.Left = 0;
@@ -213,6 +214,16 @@ namespace WPictureMove
         {
             this.Width -= 50;
             this.Height -= 25;
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void menuStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
+        {
+
         }
     }
 }
