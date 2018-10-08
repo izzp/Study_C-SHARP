@@ -17,8 +17,8 @@ namespace WPictureMove
 
         int step = 1;//步长
 
-        int v =10;//基础速度倍数，不然速度太慢...
-        
+        int v =10;//基础速度倍数，不然速度太慢...       
+
         public Form1()
         {
             InitializeComponent();
@@ -41,6 +41,7 @@ namespace WPictureMove
         }
         private void btnCircle_Click(object sender, EventArgs e)//环周
         {
+            step = 1;
             timer1.Enabled = true;
             style = 3;
             pictureBox1.Left = 0;
