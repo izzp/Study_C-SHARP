@@ -1,0 +1,7 @@
+F:\A-------------ZZP\projects\CDay1009\CDay1009\obj\Debug\ResolveAssemblyReference.cache
+F:\A-------------ZZP\projects\CDay1009\CDay1009\bin\Debug\CDay1009.exe
+F:\A-------------ZZP\projects\CDay1009\CDay1009\bin\Debug\CDay1009.pdb
+F:\A-------------ZZP\projects\CDay1009\CDay1009\obj\Debug\CDay1009.exe
+F:\A-------------ZZP\projects\CDay1009\CDay1009\obj\Debug\CDay1009.pdb
+F:\02_GIT\Study_C SHARP\CDay1009\CDay1009\obj\Debug\CDay1009.exe
+F:\02_GIT\Study_C SHARP\CDay1009\CDay1009\obj\Debug\CDay1009.pdb

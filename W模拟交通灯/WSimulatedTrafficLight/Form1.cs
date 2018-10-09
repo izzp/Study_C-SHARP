@@ -21,6 +21,12 @@ namespace WSimulatedTrafficLight
             MessageBox.Show ("雨心Dream \n 项目地址：https://github.com/izzp/Study_C-SHARP");
         }
 
+        private void textBoxRedLight_TextChanged(object sender, EventArgs e)
+        {
+    
+        }
+
+
 
 
     }
