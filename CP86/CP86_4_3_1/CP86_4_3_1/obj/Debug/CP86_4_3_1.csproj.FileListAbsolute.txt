@@ -1,0 +1,10 @@
+C:\Users\dell\Desktop\CP86_4_3_1\CP86_4_3_1\bin\Debug\CP86_4_3_1.exe
+C:\Users\dell\Desktop\CP86_4_3_1\CP86_4_3_1\bin\Debug\CP86_4_3_1.pdb
+C:\Users\dell\Desktop\CP86_4_3_1\CP86_4_3_1\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\dell\Desktop\CP86_4_3_1\CP86_4_3_1\obj\Debug\CP86_4_3_1.exe
+C:\Users\dell\Desktop\CP86_4_3_1\CP86_4_3_1\obj\Debug\CP86_4_3_1.pdb
+F:\02_GIT\Study_C-SHARP\CP86_4_3_1\CP86_4_3_1\obj\Debug\CP86_4_3_1.exe
+F:\02_GIT\Study_C-SHARP\CP86_4_3_1\CP86_4_3_1\obj\Debug\CP86_4_3_1.pdb
+F:\02_GIT\Study_C-SHARP\CP86_4_3_1\CP86_4_3_1\bin\Debug\CP86_4_3_1.exe
+F:\02_GIT\Study_C-SHARP\CP86_4_3_1\CP86_4_3_1\bin\Debug\CP86_4_3_1.pdb
+F:\02_GIT\Study_C-SHARP\CP86_4_3_1\CP86_4_3_1\obj\Debug\ResolveAssemblyReference.cache
