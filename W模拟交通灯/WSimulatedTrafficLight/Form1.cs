@@ -15,155 +15,74 @@ namespace WSimulatedTrafficLight
         {
             InitializeComponent();
         }
+        int i = 0;
+        int light = 3;//1绿灯亮，2黄灯亮，3红灯亮。
         int red_time, yellow_time, green_time, time = 0;  //定义红绿灯亮的时间
         private void AboutToolStripMenuItem_Click(object sender, EventArgs e)
         {
             MessageBox.Show("雨心Dream ");
         }
-
-        private void textBoxRedLight_TextChanged(object sender, EventArgs e)
-        {
-
-
-        }
-
         private void timer1_Tick(object sender, EventArgs e)
         {
-
-                switch (this.comboBox1.SelectedItem.ToString())
-                {
-                    case "红灯先亮":
-                        {
-                            if (red_time > time)
-                            {
-                                pictureBox1.Image = WSimulatedTrafficLight.Properties.Resources.r;
-                                time++;
-                                Text = "当前红灯亮了" + time + "秒";
-                            }
-                            else if (green_time > time - red_time && green_time > 0)
-                            {
-                                pictureBox1.Image = WSimulatedTrafficLight.Properties.Resources.g;
-                                time++;
-                                Text = "当前绿灯亮了" + (time - red_time) + "秒";
-                            }
-                            else if (yellow_time + green_time + red_time > time && yellow_time > 0)
-                            {
-                                pictureBox1.Image = WSimulatedTrafficLight.Properties.Resources.y;
-                                time++;
-                                Text = "当前黄灯亮了" + (time - red_time - green_time) + "秒";
-                            }
-                            else
-                            {
-                                time = 0;
-                            };
-                            break;
-                        }
-                    case "绿灯先亮":
-                        {
-                            if (green_time > time)
-                            {
-                                pictureBox1.Image = WSimulatedTrafficLight.Properties.Resources.g;
-                                time++;
-                                Text = "当前绿灯亮了" + time + "秒";
-                            }
-                            else if (yellow_time > time - green_time && yellow_time > 0)
-                            {
-                                pictureBox1.Image = WSimulatedTrafficLight.Properties.Resources.y;
-                                time++;
-                                Text = "当前黄灯亮了" + (time - green_time) + "秒";
-                            }
-                            else if (yellow_time + green_time + red_time > time && red_time > 0)
-                            {
-                                pictureBox1.Image = WSimulatedTrafficLight.Properties.Resources.r;
-                                time++;
-                                Text = "当前红灯亮了" + (time - yellow_time - green_time) + "秒";
-                            }
-                            else
-                            {
-                                time = 0;
-                            };
-                            break;
-                        }
-                    case "黄灯先亮":
-                        {
-                            if (yellow_time > time)
-                            {
-                                pictureBox1.Image = WSimulatedTrafficLight.Properties.Resources.y;
-                                time++;
-                                Text = "当前黄灯亮了" + time + "秒";
-                            }
-                            else if (red_time > time - red_time && green_time > 0)
-                            {
-                                pictureBox1.Image = WSimulatedTrafficLight.Properties.Resources.r;
-                                time++;
-                                Text = "当前红灯亮了" + (time - yellow_time) + "秒";
-                            }
-                            else if (yellow_time + green_time + red_time > time && green_time > 0)
-                            {
-                                pictureBox1.Image = WSimulatedTrafficLight.Properties.Resources.g;
-                                time++;
-                                Text = "当前绿灯亮了" + (time - red_time - yellow_time) + "秒";
-                            }
-                            else
-                            {
-                                time = 0;
-                            };
-                            break;
-                        }
-                    default:
-                        break;
-                }
+            switch (light)
+            {
+                case 1://绿灯亮
+                    this.Text = "绿灯亮了" + i + "秒！";
+                    pictureBox1.Image = WSimulatedTrafficLight.Properties.Resources.g;
+                    if (i == green_time)
+                    {
+                        light = 2;
+                        i = 0;
+                    }
+                    i++;
+                    break;
+                case 2://黄灯亮
+                    this.Text = "黄灯亮了" + i + "秒！";
+                    pictureBox1.Image = WSimulatedTrafficLight.Properties.Resources.y;
+                    if (i == yellow_time)
+                    {
+                        light = 3;
+                        i = 0;
+                    }
+                    i++;
+                    break;
+                case 3://红灯亮
+                    this.Text = "红灯亮了" + i + "秒！";
+                    pictureBox1.Image = WSimulatedTrafficLight.Properties.Resources.r;
+                    if (i == red_time)
+                    {
+                        light = 1;
+                        i = 0;
+                    }
+                    i++;
+                    break;
+                default: break;
+            }  
         }
-
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
-        }
-
-
         private void EixtToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Application.Exit();
         }
-
         private void btnBegin_Click(object sender, EventArgs e)
         {
             red_time = (int)this.RednumericUpDown.Value;
             yellow_time = (int)this.YellonumericUpDown.Value;
             green_time = (int)this.GreennumericUpDown.Value;     //获取时间
-           
             if (comboBox1.SelectedIndex == -1)
             {
                 MessageBox.Show("请选择亮灯方式");
             }
             else
+            {
+                light = comboBox1.SelectedIndex+1;
                 timer1.Enabled = true;
+            }
         }
-
-        private void RednumericUpDown_ValueChanged(object sender, EventArgs e)
-        {
-
-        }
-        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
-
         private void button1_Click(object sender, EventArgs e)
         {
             timer1.Enabled = false;
             pictureBox1.Image = WSimulatedTrafficLight.Properties.Resources.nrgy;
+            this.Text = "模拟交通灯";
         }
-
-        private void GreennumericUpDown_ValueChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void YellonumericUpDown_ValueChanged(object sender, EventArgs e)
-        {
-
-        }
-
     }
 }

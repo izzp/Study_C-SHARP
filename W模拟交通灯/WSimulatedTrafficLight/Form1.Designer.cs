@@ -74,7 +74,7 @@
             // ExitToolStripMenuItem
             // 
             this.ExitToolStripMenuItem.Name = "ExitToolStripMenuItem";
-            this.ExitToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.ExitToolStripMenuItem.Size = new System.Drawing.Size(100, 22);
             this.ExitToolStripMenuItem.Text = "退出";
             this.ExitToolStripMenuItem.Click += new System.EventHandler(this.EixtToolStripMenuItem_Click);
             // 
@@ -145,9 +145,9 @@
             // 
             this.comboBox1.FormattingEnabled = true;
             this.comboBox1.Items.AddRange(new object[] {
-            "红灯先亮",
             "绿灯先亮",
-            "黄灯先亮"});
+            "黄灯先亮",
+            "红灯先亮"});
             this.comboBox1.Location = new System.Drawing.Point(372, 177);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(100, 20);
@@ -172,7 +172,6 @@
             this.GreennumericUpDown.Name = "GreennumericUpDown";
             this.GreennumericUpDown.Size = new System.Drawing.Size(100, 21);
             this.GreennumericUpDown.TabIndex = 12;
-            this.GreennumericUpDown.ValueChanged += new System.EventHandler(this.YellonumericUpDown_ValueChanged);
             // 
             // YellonumericUpDown
             // 
@@ -180,7 +179,6 @@
             this.YellonumericUpDown.Name = "YellonumericUpDown";
             this.YellonumericUpDown.Size = new System.Drawing.Size(99, 21);
             this.YellonumericUpDown.TabIndex = 13;
-            this.YellonumericUpDown.ValueChanged += new System.EventHandler(this.GreennumericUpDown_ValueChanged);
             // 
             // button1
             // 
@@ -213,7 +211,6 @@
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "模拟交通灯";
-            this.Load += new System.EventHandler(this.Form1_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
