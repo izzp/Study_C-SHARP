@@ -1,0 +1,5 @@
+F:\02_GIT\Study_C-SHARP\CP86\CP86_4_3_4\CP86_4_3_4\bin\Debug\CP86_4_3_4.exe
+F:\02_GIT\Study_C-SHARP\CP86\CP86_4_3_4\CP86_4_3_4\bin\Debug\CP86_4_3_4.pdb
+F:\02_GIT\Study_C-SHARP\CP86\CP86_4_3_4\CP86_4_3_4\obj\Debug\ResolveAssemblyReference.cache
+F:\02_GIT\Study_C-SHARP\CP86\CP86_4_3_4\CP86_4_3_4\obj\Debug\CP86_4_3_4.exe
+F:\02_GIT\Study_C-SHARP\CP86\CP86_4_3_4\CP86_4_3_4\obj\Debug\CP86_4_3_4.pdb

@@ -19,7 +19,6 @@ namespace CP86_4_3_4
             //    sum += i;
             //}
             //Console.WriteLine("你要的N个数的和为:{0}", sum);
-            //Console.ReadLine();
 
             //while
             //int sum = 0;
@@ -32,7 +31,6 @@ namespace CP86_4_3_4
             //    i++;
             //}
             //Console.WriteLine("你要的N个数的和为:{0}", sum);
-            //Console.ReadLine();
 
             //do……while
             int sum = 0;
@@ -45,7 +43,6 @@ namespace CP86_4_3_4
                 i++;
             } while (i <= num);
             Console.WriteLine("你要的N个数的和为:{0}", sum);
-            Console.ReadLine();
         }
     }
 }

@@ -29,11 +29,7 @@ namespace WSimulatedTrafficLight
 
         private void timer1_Tick(object sender, EventArgs e)
         {
-            if (comboBox1.SelectedIndex == -1)
-            {
-                MessageBox.Show("请选择亮灯方式");
-            }
-            else
+
                 switch (this.comboBox1.SelectedItem.ToString())
                 {
                     case "红灯先亮":
@@ -135,7 +131,13 @@ namespace WSimulatedTrafficLight
             red_time = (int)this.RednumericUpDown.Value;
             yellow_time = (int)this.YellonumericUpDown.Value;
             green_time = (int)this.GreennumericUpDown.Value;     //获取时间
-            timer1.Enabled = true;
+           
+            if (comboBox1.SelectedIndex == -1)
+            {
+                MessageBox.Show("请选择亮灯方式");
+            }
+            else
+                timer1.Enabled = true;
         }
 
         private void RednumericUpDown_ValueChanged(object sender, EventArgs e)
@@ -149,7 +151,8 @@ namespace WSimulatedTrafficLight
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            timer1.Enabled = false;
+            pictureBox1.Image = WSimulatedTrafficLight.Properties.Resources.nrgy;
         }
 
         private void GreennumericUpDown_ValueChanged(object sender, EventArgs e)
@@ -161,5 +164,6 @@ namespace WSimulatedTrafficLight
         {
 
         }
+
     }
 }
