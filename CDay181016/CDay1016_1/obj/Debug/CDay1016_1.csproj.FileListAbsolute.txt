@@ -1,0 +1,7 @@
+C:\Documents and Settings\Administrator\桌面\CDay1016_1\CDay1016_1\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\CDay1016_1\CDay1016_1\bin\Debug\CDay1016_1.exe
+C:\Documents and Settings\Administrator\桌面\CDay1016_1\CDay1016_1\bin\Debug\CDay1016_1.pdb
+C:\Documents and Settings\Administrator\桌面\CDay1016_1\CDay1016_1\obj\Debug\CDay1016_1.exe
+C:\Documents and Settings\Administrator\桌面\CDay1016_1\CDay1016_1\obj\Debug\CDay1016_1.pdb
+F:\02_GIT\Study_C-SHARP\CDay181016\CDay1016_1\obj\Debug\CDay1016_1.exe
+F:\02_GIT\Study_C-SHARP\CDay181016\CDay1016_1\obj\Debug\CDay1016_1.pdb
