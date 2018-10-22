@@ -153,6 +153,7 @@
             this.comboBox1.Size = new System.Drawing.Size(100, 20);
             this.comboBox1.TabIndex = 10;
             this.comboBox1.Text = "请选择";
+
             // 
             // timer1
             // 
