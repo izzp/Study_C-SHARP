@@ -1,0 +1,5 @@
+K:\CP108\CP108_5_3_3\CP108_5_3_3\obj\Debug\ResolveAssemblyReference.cache
+K:\CP108\CP108_5_3_3\CP108_5_3_3\bin\Debug\CP108_5_3_3.exe
+K:\CP108\CP108_5_3_3\CP108_5_3_3\bin\Debug\CP108_5_3_3.pdb
+K:\CP108\CP108_5_3_3\CP108_5_3_3\obj\Debug\CP108_5_3_3.exe
+K:\CP108\CP108_5_3_3\CP108_5_3_3\obj\Debug\CP108_5_3_3.pdb
