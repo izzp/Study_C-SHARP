@@ -1,0 +1,10 @@
+F:\A-------------ZZP\projects\CDay1024_2\CDay1024_2\obj\Debug\ResolveAssemblyReference.cache
+F:\A-------------ZZP\projects\CDay1024_2\CDay1024_2\bin\Debug\CDay1024_2.exe
+F:\A-------------ZZP\projects\CDay1024_2\CDay1024_2\bin\Debug\CDay1024_2.pdb
+F:\A-------------ZZP\projects\CDay1024_2\CDay1024_2\obj\Debug\CDay1024_2.exe
+F:\A-------------ZZP\projects\CDay1024_2\CDay1024_2\obj\Debug\CDay1024_2.pdb
+K:\CDay1024\CDay1024_2\CDay1024_2\obj\Debug\CDay1024_2.exe
+K:\CDay1024\CDay1024_2\CDay1024_2\obj\Debug\CDay1024_2.pdb
+K:\CDay1024\CDay1024_2\CDay1024_2\bin\Debug\CDay1024_2.exe
+K:\CDay1024\CDay1024_2\CDay1024_2\bin\Debug\CDay1024_2.pdb
+K:\CDay1024\CDay1024_2\CDay1024_2\obj\Debug\ResolveAssemblyReference.cache
