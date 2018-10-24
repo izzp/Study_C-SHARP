@@ -1,0 +1,8 @@
+H:\WNeon\WNeon\obj\Debug\ResolveAssemblyReference.cache
+H:\WNeon\WNeon\obj\Debug\WNeon.Form1.resources
+H:\WNeon\WNeon\obj\Debug\WNeon.Properties.Resources.resources
+H:\WNeon\WNeon\obj\Debug\WNeon.csproj.GenerateResource.Cache
+H:\WNeon\WNeon\bin\Debug\WNeon.exe
+H:\WNeon\WNeon\bin\Debug\WNeon.pdb
+H:\WNeon\WNeon\obj\Debug\WNeon.exe
+H:\WNeon\WNeon\obj\Debug\WNeon.pdb
