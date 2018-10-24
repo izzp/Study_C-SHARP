@@ -9,7 +9,7 @@ namespace CP86_4_3_3
     {
         static void Main(string[] args)
         {
-            int[] array= new int[10];
+            int[] array= new int[4];
             for (int x = 0; x < 4; x++)
             {
                 int number = int.Parse(Console.ReadLine());
