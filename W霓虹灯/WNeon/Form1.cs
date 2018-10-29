@@ -9,7 +9,7 @@ using System.Windows.Forms;
 
 namespace WNeon
 {
-    enum Direction
+    enum Direction //方向枚举
     {
         right,
         down,
