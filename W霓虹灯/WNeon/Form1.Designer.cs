@@ -28,9 +28,11 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.panel1 = new System.Windows.Forms.Panel();
             this.btnBorn = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
+            this.btnRun = new System.Windows.Forms.Button();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.SuspendLayout();
             // 
             // panel1
@@ -38,7 +40,7 @@
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.panel1.Location = new System.Drawing.Point(28, 45);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(443, 227);
+            this.panel1.Size = new System.Drawing.Size(420, 240);
             this.panel1.TabIndex = 0;
             // 
             // btnBorn
@@ -51,20 +53,26 @@
             this.btnBorn.UseVisualStyleBackColor = true;
             this.btnBorn.Click += new System.EventHandler(this.btnBorn_Click);
             // 
-            // label1
+            // btnRun
             // 
-            this.label1.BackColor = System.Drawing.Color.Yellow;
-            this.label1.Location = new System.Drawing.Point(227, 9);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(30, 30);
-            this.label1.TabIndex = 0;
+            this.btnRun.Location = new System.Drawing.Point(182, 13);
+            this.btnRun.Name = "btnRun";
+            this.btnRun.Size = new System.Drawing.Size(75, 23);
+            this.btnRun.TabIndex = 2;
+            this.btnRun.Text = "跑起来";
+            this.btnRun.UseVisualStyleBackColor = true;
+            this.btnRun.Click += new System.EventHandler(this.btnRun_Click);
+            // 
+            // timer1
+            // 
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(504, 307);
-            this.Controls.Add(this.label1);
+            this.ClientSize = new System.Drawing.Size(477, 307);
+            this.Controls.Add(this.btnRun);
             this.Controls.Add(this.btnBorn);
             this.Controls.Add(this.panel1);
             this.Name = "Form1";
@@ -77,7 +85,8 @@
 
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Button btnBorn;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button btnRun;
+        private System.Windows.Forms.Timer timer1;
     }
 }
 
