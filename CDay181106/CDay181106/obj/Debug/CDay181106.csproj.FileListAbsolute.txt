@@ -1,0 +1,12 @@
+C:\zzp\c#\project\CDay181106\CDay181106\bin\Debug\CDay181106.exe.config
+C:\zzp\c#\project\CDay181106\CDay181106\obj\Debug\CDay181106.csprojResolveAssemblyReference.cache
+C:\zzp\c#\project\CDay181106\CDay181106\bin\Debug\CDay181106.exe
+C:\zzp\c#\project\CDay181106\CDay181106\bin\Debug\CDay181106.pdb
+C:\zzp\c#\project\CDay181106\CDay181106\obj\Debug\CDay181106.exe
+C:\zzp\c#\project\CDay181106\CDay181106\obj\Debug\CDay181106.pdb
+C:\Users\zzp\Desktop\雨心\CDay181106\CDay181106\bin\Debug\CDay181106.exe.config
+C:\Users\zzp\Desktop\雨心\CDay181106\CDay181106\obj\Debug\CDay181106.exe
+C:\Users\zzp\Desktop\雨心\CDay181106\CDay181106\obj\Debug\CDay181106.pdb
+C:\Users\zzp\Desktop\雨心\CDay181106\CDay181106\bin\Debug\CDay181106.exe
+C:\Users\zzp\Desktop\雨心\CDay181106\CDay181106\bin\Debug\CDay181106.pdb
+C:\Users\zzp\Desktop\雨心\CDay181106\CDay181106\obj\Debug\CDay181106.csprojResolveAssemblyReference.cache
