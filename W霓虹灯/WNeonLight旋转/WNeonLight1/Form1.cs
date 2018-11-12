@@ -52,7 +52,7 @@ namespace WNeonLight1
             }
         }
 
-        private void btnOneRun_Click(object sender, EventArgs e)
+        private void btnOneRun_Click(object sender, EventArgs e)//棕色运动
         {
             if(s==1)
             {
@@ -64,7 +64,7 @@ namespace WNeonLight1
                 MessageBox.Show("请先生成");
             }
         }
-        private void btnClockwise_Click(object sender, EventArgs e)
+        private void btnClockwise_Click(object sender, EventArgs e)//顺时针转圈
         {
             if (s == 1)
             {
@@ -76,7 +76,7 @@ namespace WNeonLight1
                 MessageBox.Show("请先生成");
             }
         }
-        private void btnCounterclockwise_Click(object sender, EventArgs e)
+        private void btnCounterclockwise_Click(object sender, EventArgs e)//逆时针转圈
         {
             if (s == 1)
             {
@@ -92,7 +92,7 @@ namespace WNeonLight1
         {
             switch (style)
             {
-                case 1: 
+                case 1: //一个运动
                         if (j == 0)
                         {
                             lbls[j].BackColor = Color.Orange;
@@ -106,7 +106,7 @@ namespace WNeonLight1
                         lbls[j].BackColor = Color.Orange;
                         j = (j + 1) % 50;
                          break;
-                case 2: 
+                case 2: //顺时针
                      for (int i = 0; i < N ; i++)
                     {
                         lbls[i].BackColor = colors[(j+i) % 5];
@@ -116,7 +116,7 @@ namespace WNeonLight1
                     else
                         j=-((j-1)%49);
                     break;
-                case 3: 
+                case 3: //逆时针
                          for (int i = 0; i < N ; i++)
                         {
                             lbls[i].BackColor = colors[(i + j) % 5];

@@ -25,3 +25,12 @@ F:\WNeonLight1赵\WNeonLight1\obj\Debug\WNeonLight1.csprojResolveAssemblyReferen
 F:\WNeonLight1赵\WNeonLight1\obj\Debug\WNeonLight1.Form1.resources
 F:\WNeonLight1赵\WNeonLight1\obj\Debug\WNeonLight1.Properties.Resources.resources
 F:\WNeonLight1赵\WNeonLight1\obj\Debug\WNeonLight1.csproj.GenerateResource.Cache
+F:\02_GIT\Study_C-SHARP\W霓虹灯\WNeonLight旋转\WNeonLight1\bin\Debug\WNeonLight1.exe.config
+F:\02_GIT\Study_C-SHARP\W霓虹灯\WNeonLight旋转\WNeonLight1\obj\Debug\WNeonLight1.exe
+F:\02_GIT\Study_C-SHARP\W霓虹灯\WNeonLight旋转\WNeonLight1\obj\Debug\WNeonLight1.pdb
+F:\02_GIT\Study_C-SHARP\W霓虹灯\WNeonLight旋转\WNeonLight1\bin\Debug\WNeonLight1.exe
+F:\02_GIT\Study_C-SHARP\W霓虹灯\WNeonLight旋转\WNeonLight1\bin\Debug\WNeonLight1.pdb
+F:\02_GIT\Study_C-SHARP\W霓虹灯\WNeonLight旋转\WNeonLight1\obj\Debug\WNeonLight1.csprojResolveAssemblyReference.cache
+F:\02_GIT\Study_C-SHARP\W霓虹灯\WNeonLight旋转\WNeonLight1\obj\Debug\WNeonLight1.Form1.resources
+F:\02_GIT\Study_C-SHARP\W霓虹灯\WNeonLight旋转\WNeonLight1\obj\Debug\WNeonLight1.Properties.Resources.resources
+F:\02_GIT\Study_C-SHARP\W霓虹灯\WNeonLight旋转\WNeonLight1\obj\Debug\WNeonLight1.csproj.GenerateResource.Cache
