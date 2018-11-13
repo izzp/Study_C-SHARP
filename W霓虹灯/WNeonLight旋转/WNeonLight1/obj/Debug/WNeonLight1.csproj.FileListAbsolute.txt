@@ -34,3 +34,6 @@ F:\02_GIT\Study_C-SHARP\W霓虹灯\WNeonLight旋转\WNeonLight1\obj\Debug\WNeonL
 F:\02_GIT\Study_C-SHARP\W霓虹灯\WNeonLight旋转\WNeonLight1\obj\Debug\WNeonLight1.Form1.resources
 F:\02_GIT\Study_C-SHARP\W霓虹灯\WNeonLight旋转\WNeonLight1\obj\Debug\WNeonLight1.Properties.Resources.resources
 F:\02_GIT\Study_C-SHARP\W霓虹灯\WNeonLight旋转\WNeonLight1\obj\Debug\WNeonLight1.csproj.GenerateResource.Cache
+F:\Study_C-SHARP\W霓虹灯\WNeonLight旋转\WNeonLight1\bin\Debug\WNeonLight1.exe.config
+F:\Study_C-SHARP\W霓虹灯\WNeonLight旋转\WNeonLight1\obj\Debug\WNeonLight1.exe
+F:\Study_C-SHARP\W霓虹灯\WNeonLight旋转\WNeonLight1\obj\Debug\WNeonLight1.pdb
