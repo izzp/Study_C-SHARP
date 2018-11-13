@@ -1,0 +1,6 @@
+C:\zzp\c#\project\CDay181113\CDay181113_2\bin\Debug\CDay181113_2.exe.config
+C:\zzp\c#\project\CDay181113\CDay181113_2\obj\Debug\CDay181113_2.csprojResolveAssemblyReference.cache
+C:\zzp\c#\project\CDay181113\CDay181113_2\bin\Debug\CDay181113_2.exe
+C:\zzp\c#\project\CDay181113\CDay181113_2\bin\Debug\CDay181113_2.pdb
+C:\zzp\c#\project\CDay181113\CDay181113_2\obj\Debug\CDay181113_2.exe
+C:\zzp\c#\project\CDay181113\CDay181113_2\obj\Debug\CDay181113_2.pdb
