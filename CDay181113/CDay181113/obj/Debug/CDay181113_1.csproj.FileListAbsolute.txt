@@ -1,0 +1,3 @@
+F:\02_GIT\Study_C-SHARP\CDay181113\CDay181113\bin\Debug\CDay181113.exe.config
+F:\02_GIT\Study_C-SHARP\CDay181113\CDay181113\obj\Debug\CDay181113.exe
+F:\02_GIT\Study_C-SHARP\CDay181113\CDay181113\obj\Debug\CDay181113.pdb

@@ -4,3 +4,9 @@ C:\zzp\c#\project\CDay181112\CDay181112\bin\Debug\CDay181112.exe
 C:\zzp\c#\project\CDay181112\CDay181112\bin\Debug\CDay181112.pdb
 C:\zzp\c#\project\CDay181112\CDay181112\obj\Debug\CDay181112.exe
 C:\zzp\c#\project\CDay181112\CDay181112\obj\Debug\CDay181112.pdb
+F:\02_GIT\Study_C-SHARP\CDay181112\CDay181112\bin\Debug\CDay181112.exe.config
+F:\02_GIT\Study_C-SHARP\CDay181112\CDay181112\obj\Debug\CDay181112.exe
+F:\02_GIT\Study_C-SHARP\CDay181112\CDay181112\obj\Debug\CDay181112.pdb
+F:\02_GIT\Study_C-SHARP\CDay181112\CDay181112\bin\Debug\CDay181112.exe
+F:\02_GIT\Study_C-SHARP\CDay181112\CDay181112\bin\Debug\CDay181112.pdb
+F:\02_GIT\Study_C-SHARP\CDay181112\CDay181112\obj\Debug\CDay181112.csprojResolveAssemblyReference.cache
