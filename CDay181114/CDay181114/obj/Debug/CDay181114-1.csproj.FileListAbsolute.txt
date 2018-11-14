@@ -1,0 +1,5 @@
+C:\zzp\c#\project\CDay181114\CDay181114\bin\Debug\CDay181114.exe.config
+C:\zzp\c#\project\CDay181114\CDay181114\bin\Debug\CDay181114.exe
+C:\zzp\c#\project\CDay181114\CDay181114\bin\Debug\CDay181114.pdb
+C:\zzp\c#\project\CDay181114\CDay181114\obj\Debug\CDay181114.exe
+C:\zzp\c#\project\CDay181114\CDay181114\obj\Debug\CDay181114.pdb
