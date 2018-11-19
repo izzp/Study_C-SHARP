@@ -1,0 +1,6 @@
+C:\zzp\c#\project\Cdelegate\Cdelegate\bin\Debug\Cdelegate.exe.config
+C:\zzp\c#\project\Cdelegate\Cdelegate\obj\Debug\Cdelegate.csprojResolveAssemblyReference.cache
+C:\zzp\c#\project\Cdelegate\Cdelegate\bin\Debug\Cdelegate.exe
+C:\zzp\c#\project\Cdelegate\Cdelegate\bin\Debug\Cdelegate.pdb
+C:\zzp\c#\project\Cdelegate\Cdelegate\obj\Debug\Cdelegate.exe
+C:\zzp\c#\project\Cdelegate\Cdelegate\obj\Debug\Cdelegate.pdb
