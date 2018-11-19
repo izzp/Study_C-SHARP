@@ -1,0 +1,6 @@
+C:\zzp\c#\project\CEvent\CEvent\bin\Debug\CEvent.exe.config
+C:\zzp\c#\project\CEvent\CEvent\bin\Debug\CEvent.exe
+C:\zzp\c#\project\CEvent\CEvent\bin\Debug\CEvent.pdb
+C:\zzp\c#\project\CEvent\CEvent\obj\Debug\CEvent.csprojResolveAssemblyReference.cache
+C:\zzp\c#\project\CEvent\CEvent\obj\Debug\CEvent.exe
+C:\zzp\c#\project\CEvent\CEvent\obj\Debug\CEvent.pdb
