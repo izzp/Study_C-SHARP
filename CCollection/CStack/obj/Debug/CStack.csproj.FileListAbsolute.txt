@@ -1,0 +1,6 @@
+C:\zzp\c#\project\CCollection\CStack\bin\Debug\CStack.exe.config
+C:\zzp\c#\project\CCollection\CStack\bin\Debug\CStack.exe
+C:\zzp\c#\project\CCollection\CStack\bin\Debug\CStack.pdb
+C:\zzp\c#\project\CCollection\CStack\obj\Debug\CStack.exe
+C:\zzp\c#\project\CCollection\CStack\obj\Debug\CStack.pdb
+C:\zzp\c#\project\CCollection\CStack\obj\Debug\CStack.csprojResolveAssemblyReference.cache

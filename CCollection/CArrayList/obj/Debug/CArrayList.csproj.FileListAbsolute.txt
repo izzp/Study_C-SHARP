@@ -1,0 +1,6 @@
+C:\zzp\c#\project\CCollection\CArrayList\bin\Debug\CArrayList.exe.config
+C:\zzp\c#\project\CCollection\CArrayList\bin\Debug\CArrayList.exe
+C:\zzp\c#\project\CCollection\CArrayList\bin\Debug\CArrayList.pdb
+C:\zzp\c#\project\CCollection\CArrayList\obj\Debug\CArrayList.csprojResolveAssemblyReference.cache
+C:\zzp\c#\project\CCollection\CArrayList\obj\Debug\CArrayList.exe
+C:\zzp\c#\project\CCollection\CArrayList\obj\Debug\CArrayList.pdb
