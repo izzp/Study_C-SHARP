@@ -1,0 +1,6 @@
+C:\zzp\c#\project\CGeneric\CGeneric\bin\Debug\CGeneric.exe.config
+C:\zzp\c#\project\CGeneric\CGeneric\bin\Debug\CGeneric.exe
+C:\zzp\c#\project\CGeneric\CGeneric\bin\Debug\CGeneric.pdb
+C:\zzp\c#\project\CGeneric\CGeneric\obj\Debug\CGeneric.csprojResolveAssemblyReference.cache
+C:\zzp\c#\project\CGeneric\CGeneric\obj\Debug\CGeneric.exe
+C:\zzp\c#\project\CGeneric\CGeneric\obj\Debug\CGeneric.pdb
