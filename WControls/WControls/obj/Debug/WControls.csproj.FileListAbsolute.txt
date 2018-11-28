@@ -7,3 +7,12 @@ C:\zzp\c#\project\WControls\WControls\bin\Debug\WControls.exe
 C:\zzp\c#\project\WControls\WControls\bin\Debug\WControls.pdb
 C:\zzp\c#\project\WControls\WControls\obj\Debug\WControls.exe
 C:\zzp\c#\project\WControls\WControls\obj\Debug\WControls.pdb
+C:\zzp\c#\git\Study_C-SHARP\WControls\WControls\bin\Debug\WControls.exe.config
+C:\zzp\c#\git\Study_C-SHARP\WControls\WControls\obj\Debug\WControls.exe
+C:\zzp\c#\git\Study_C-SHARP\WControls\WControls\obj\Debug\WControls.pdb
+C:\zzp\c#\git\Study_C-SHARP\WControls\WControls\bin\Debug\WControls.exe
+C:\zzp\c#\git\Study_C-SHARP\WControls\WControls\bin\Debug\WControls.pdb
+C:\zzp\c#\git\Study_C-SHARP\WControls\WControls\obj\Debug\WControls.csprojResolveAssemblyReference.cache
+C:\zzp\c#\git\Study_C-SHARP\WControls\WControls\obj\Debug\WControls.Form1.resources
+C:\zzp\c#\git\Study_C-SHARP\WControls\WControls\obj\Debug\WControls.Properties.Resources.resources
+C:\zzp\c#\git\Study_C-SHARP\WControls\WControls\obj\Debug\WControls.csproj.GenerateResource.Cache
