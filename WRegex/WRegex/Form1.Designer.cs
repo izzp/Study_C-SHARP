@@ -44,6 +44,9 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.txtGender = new System.Windows.Forms.TextBox();
+            this.lblGender = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btnSubmit
@@ -63,7 +66,7 @@
             this.lblID.AutoSize = true;
             this.lblID.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.lblID.ForeColor = System.Drawing.Color.Crimson;
-            this.lblID.Location = new System.Drawing.Point(356, 214);
+            this.lblID.Location = new System.Drawing.Point(356, 226);
             this.lblID.Name = "lblID";
             this.lblID.Size = new System.Drawing.Size(188, 15);
             this.lblID.TabIndex = 30;
@@ -75,7 +78,7 @@
             this.lblMail.AutoSize = true;
             this.lblMail.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.lblMail.ForeColor = System.Drawing.Color.Crimson;
-            this.lblMail.Location = new System.Drawing.Point(356, 177);
+            this.lblMail.Location = new System.Drawing.Point(356, 189);
             this.lblMail.Name = "lblMail";
             this.lblMail.Size = new System.Drawing.Size(142, 15);
             this.lblMail.TabIndex = 29;
@@ -87,7 +90,7 @@
             this.lblPhone.AutoSize = true;
             this.lblPhone.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.lblPhone.ForeColor = System.Drawing.Color.Crimson;
-            this.lblPhone.Location = new System.Drawing.Point(356, 141);
+            this.lblPhone.Location = new System.Drawing.Point(356, 153);
             this.lblPhone.Name = "lblPhone";
             this.lblPhone.Size = new System.Drawing.Size(128, 15);
             this.lblPhone.TabIndex = 28;
@@ -99,7 +102,7 @@
             this.lblAge.AutoSize = true;
             this.lblAge.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.lblAge.ForeColor = System.Drawing.Color.Crimson;
-            this.lblAge.Location = new System.Drawing.Point(355, 107);
+            this.lblAge.Location = new System.Drawing.Point(355, 119);
             this.lblAge.Name = "lblAge";
             this.lblAge.Size = new System.Drawing.Size(137, 15);
             this.lblAge.TabIndex = 27;
@@ -111,7 +114,7 @@
             this.lblName.AutoSize = true;
             this.lblName.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.lblName.ForeColor = System.Drawing.Color.Crimson;
-            this.lblName.Location = new System.Drawing.Point(355, 73);
+            this.lblName.Location = new System.Drawing.Point(355, 50);
             this.lblName.Name = "lblName";
             this.lblName.Size = new System.Drawing.Size(150, 15);
             this.lblName.TabIndex = 26;
@@ -121,7 +124,7 @@
             // txtID
             // 
             this.txtID.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.txtID.Location = new System.Drawing.Point(157, 211);
+            this.txtID.Location = new System.Drawing.Point(157, 223);
             this.txtID.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtID.Name = "txtID";
             this.txtID.Size = new System.Drawing.Size(180, 25);
@@ -130,7 +133,7 @@
             // txtMail
             // 
             this.txtMail.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.txtMail.Location = new System.Drawing.Point(157, 172);
+            this.txtMail.Location = new System.Drawing.Point(157, 184);
             this.txtMail.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtMail.Name = "txtMail";
             this.txtMail.Size = new System.Drawing.Size(180, 25);
@@ -139,7 +142,7 @@
             // txtNum
             // 
             this.txtNum.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.txtNum.Location = new System.Drawing.Point(157, 135);
+            this.txtNum.Location = new System.Drawing.Point(157, 147);
             this.txtNum.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtNum.Name = "txtNum";
             this.txtNum.Size = new System.Drawing.Size(180, 25);
@@ -148,7 +151,7 @@
             // txtAge
             // 
             this.txtAge.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.txtAge.Location = new System.Drawing.Point(157, 101);
+            this.txtAge.Location = new System.Drawing.Point(157, 113);
             this.txtAge.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtAge.Name = "txtAge";
             this.txtAge.Size = new System.Drawing.Size(180, 25);
@@ -157,7 +160,7 @@
             // txtName
             // 
             this.txtName.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.txtName.Location = new System.Drawing.Point(157, 67);
+            this.txtName.Location = new System.Drawing.Point(157, 47);
             this.txtName.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtName.Name = "txtName";
             this.txtName.Size = new System.Drawing.Size(180, 25);
@@ -167,7 +170,7 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label5.Location = new System.Drawing.Point(58, 177);
+            this.label5.Location = new System.Drawing.Point(58, 189);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(52, 15);
             this.label5.TabIndex = 20;
@@ -177,7 +180,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label4.Location = new System.Drawing.Point(58, 216);
+            this.label4.Location = new System.Drawing.Point(58, 228);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(82, 15);
             this.label4.TabIndex = 19;
@@ -187,7 +190,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label3.Location = new System.Drawing.Point(58, 105);
+            this.label3.Location = new System.Drawing.Point(58, 117);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(52, 15);
             this.label3.TabIndex = 18;
@@ -197,7 +200,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label2.Location = new System.Drawing.Point(58, 138);
+            this.label2.Location = new System.Drawing.Point(58, 150);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(67, 15);
             this.label2.TabIndex = 17;
@@ -207,17 +210,47 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label1.Location = new System.Drawing.Point(58, 73);
+            this.label1.Location = new System.Drawing.Point(58, 50);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(52, 15);
             this.label1.TabIndex = 16;
             this.label1.Text = "姓名：";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label6.Location = new System.Drawing.Point(58, 84);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(52, 15);
+            this.label6.TabIndex = 16;
+            this.label6.Text = "性别：";
+            // 
+            // txtGender
+            // 
+            this.txtGender.Location = new System.Drawing.Point(157, 81);
+            this.txtGender.Name = "txtGender";
+            this.txtGender.Size = new System.Drawing.Size(180, 25);
+            this.txtGender.TabIndex = 32;
+            // 
+            // lblGender
+            // 
+            this.lblGender.AutoSize = true;
+            this.lblGender.ForeColor = System.Drawing.Color.Crimson;
+            this.lblGender.Location = new System.Drawing.Point(355, 84);
+            this.lblGender.Name = "lblGender";
+            this.lblGender.Size = new System.Drawing.Size(142, 15);
+            this.lblGender.TabIndex = 33;
+            this.lblGender.Text = "请输入性别男或女！";
+            this.lblGender.Visible = false;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(579, 335);
+            this.Controls.Add(this.lblGender);
+            this.Controls.Add(this.txtGender);
             this.Controls.Add(this.btnSubmit);
             this.Controls.Add(this.lblID);
             this.Controls.Add(this.lblMail);
@@ -233,6 +266,7 @@
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
+            this.Controls.Add(this.label6);
             this.Controls.Add(this.label1);
             this.Name = "Form1";
             this.Text = "注册";
@@ -259,6 +293,9 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.TextBox txtGender;
+        private System.Windows.Forms.Label lblGender;
     }
 }
 
