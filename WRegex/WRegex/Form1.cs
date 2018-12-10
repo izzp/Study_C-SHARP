@@ -89,21 +89,22 @@ namespace WRegex
             }
             else
             {
+                try
+                {
+                    sw.WriteLine("姓名：" + this.txtName.Text + "\r\n性别：" + this.txtGender.Text + "\r\n年龄：" + this.txtAge.Text + "岁\r\n手机号码为：" + this.txtNum.Text + "\r\n邮箱为：" + this.txtMail.Text + "\r\n身份证号为：" + this.txtID.Text);
+                    sw.Close();
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show(ex.Message);
+                }
+                finally
+                {
+
+                }
                 MessageBox.Show("提交成功！文件写入成功！");
             }
-            try
-            {
-                sw.WriteLine("姓名：" + this.txtName.Text + "\r\n性别：" + this.txtGender.Text + "\r\n年龄：" + this.txtAge.Text + "岁\r\n手机号码为：" + this.txtNum.Text + "\r\n邮箱为：" + this.txtMail.Text + "\r\n身份证号为：" + this.txtID.Text);
-                sw.Close();
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message);
-            }
-            finally
-            {
 
-            }
         }
     }
 }
