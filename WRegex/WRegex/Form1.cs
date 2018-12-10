@@ -22,42 +22,62 @@ namespace WRegex
         {
             Regex name = new Regex(@"^[\u4e00-\u9fa5]{2,}");
             Regex age = new Regex(@"^(?:[1-9][0-9]?|1[01][0-9]|100)$");
-            Regex Phone = new Regex(@"0?(13|14|15|18|17)[0-9]{9}$");
+            Regex Phone = new Regex(@"0?(13|14|15|17|18|19)[0-9]{9}");
             Regex id = new Regex(@"^[1-9]\d{5}(18|19|([23]\d))\d{2}((0[1-9])|(10|11|12))(([0-2][1-9])|10|20|30|31)\d{3}[0-9Xx]$");
-            Regex mail = new Regex(@"^[\w-]+(\.[\w-]+)*@[\w-]+(\.[\w-]+)+$");
+            Regex mail = new Regex(@"\w[-\w.+]*@([A-Za-z0-9][-A-Za-z0-9]+\.)+[A-Za-z]{2,14}");
             string s="";
             if (!name.IsMatch(lblName.Text.Trim()))
             {
                 s = "姓名，";
                 lblName.Visible = true;
             }
+            else
+            {
+                lblName.Visible = false;
+            }
             if (!age.IsMatch(txtAge.Text.Trim()))
             {
                 s = s+"年龄，"; 
                 lblAge.Visible = true;
             }
-            if (!Phone.IsMatch(lblPhone.Text.Trim()))
+            else
+            {
+                lblAge.Visible = false;
+            }
+            if (!Phone.IsMatch(txtNum.Text.Trim()))
             {
                   s = s+"手机号码，"; 
                 lblPhone.Visible = true;
             }
-            if (!mail.IsMatch(lblMail.Text.Trim()))
+            else
+            {
+                lblPhone.Visible = false;
+            }
+            if (!mail.IsMatch(txtMail.Text.Trim()))
             {
                 s = s+"电子邮箱，"; 
                 lblMail.Visible = true;
             }
-            if (!id.IsMatch(lblID.Text.Trim()))
+            else
+            {
+                lblMail.Visible = false;
+            }
+            if (!id.IsMatch(txtID.Text.Trim()))
             {
                 s =s+ "身份证号"; 
                 lblID.Visible = true;
             }
-            if (name.IsMatch(lblName.Text.Trim()) && age.IsMatch(txtAge.Text.Trim()) && Phone.IsMatch(lblPhone.Text.Trim()) && mail.IsMatch(lblMail.Text.Trim()) && id.IsMatch(lblID.Text.Trim()))
+            else
             {
-                MessageBox.Show("提交成功！");
+                lblID.Visible = false;
+            }
+            if (lblAge.Visible || lblID.Visible || lblMail.Visible || lblName.Visible || lblPhone.Visible)
+            {
+                MessageBox.Show(s + "校验失败，请检查！");
             }
             else
             {
-                MessageBox.Show(s+"校验失败，请检查！");
+                MessageBox.Show( "提交成功！");
             }
 
         }
