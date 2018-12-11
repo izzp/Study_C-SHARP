@@ -18,11 +18,10 @@ namespace WRegex
         {
             InitializeComponent();
         }
-
+        string path=@"注册.txt";
         private void btnSubmit_Click(object sender, EventArgs e)
         {
-            FileStream fs = new FileStream(@"注册.txt", FileMode.OpenOrCreate, FileAccess.ReadWrite);
-            StreamWriter sw = new StreamWriter(fs);
+            StreamWriter sw = new StreamWriter(path, true, Encoding.GetEncoding("gb2312"));
             Regex name = new Regex(@"^[\u4e00-\u9fa5]{2,}");
             Regex age = new Regex(@"^(?:[1-9][0-9]?|1[01][0-9]|100)$");
             Regex Phone = new Regex(@"0?(13|14|15|17|18|19)[0-9]{9}");
@@ -91,7 +90,7 @@ namespace WRegex
             {
                 try
                 {
-                    sw.WriteLine("姓名：" + this.txtName.Text + "\r\n性别：" + this.txtGender.Text + "\r\n年龄：" + this.txtAge.Text + "岁\r\n手机号码为：" + this.txtNum.Text + "\r\n邮箱为：" + this.txtMail.Text + "\r\n身份证号为：" + this.txtID.Text);
+                    sw.WriteLine(this.txtName.Text + "\t" + this.txtGender.Text + "\t" + this.txtAge.Text + "\t" + this.txtNum.Text + "\t" + this.txtMail.Text + "\t" + this.txtID.Text);
                     sw.Close();
                 }
                 catch (Exception ex)
@@ -105,6 +104,40 @@ namespace WRegex
                 MessageBox.Show("提交成功！文件写入成功！");
             }
 
+        }
+
+        private void btnLook_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                StreamReader sr = new StreamReader("注册.txt", Encoding.GetEncoding("gb2312"));
+                string line;
+                string[] str;
+                while((line=sr.ReadLine())!=null)
+                {
+                    str=line.Split('\t');
+                    if(str[0]==txtName.Text.Trim())
+                    {
+                        MessageBox.Show("找到了");
+                        txtGender.Text = str[1];
+                        txtAge.Text = str[2];
+                        txtNum.Text = str[3];
+                        txtMail.Text = str[4];
+                        txtID.Text = str[5];
+                        return;
+                    }
+                }
+                sr.Close();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+            finally
+            {
+
+            }
+            MessageBox.Show("查无此人！");
         }
     }
 }
