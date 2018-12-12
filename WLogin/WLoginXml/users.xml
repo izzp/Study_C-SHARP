@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <users>
   <user>
     <name>admin</name>
@@ -7,5 +7,9 @@
   <user>
     <name>1</name>
     <password>1</password>
+  </user>
+  <user>
+    <name>2</name>
+    <password>2</password>
   </user>
 </users>

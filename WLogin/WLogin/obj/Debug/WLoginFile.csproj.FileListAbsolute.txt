@@ -1,3 +1,13 @@
 C:\zzp\c#\project\WLogin\WLogin\bin\Debug\WLogin.exe.config
 C:\zzp\c#\project\WLogin\WLogin\obj\Debug\WLogin.exe
 C:\zzp\c#\project\WLogin\WLogin\obj\Debug\WLogin.pdb
+F:\02_GIT\Study_C-SHARP\WLogin\WLogin\bin\Debug\WLogin.exe.config
+F:\02_GIT\Study_C-SHARP\WLogin\WLogin\obj\Debug\WLogin.exe
+F:\02_GIT\Study_C-SHARP\WLogin\WLogin\obj\Debug\WLogin.pdb
+F:\02_GIT\Study_C-SHARP\WLogin\WLogin\bin\Debug\WLogin.exe
+F:\02_GIT\Study_C-SHARP\WLogin\WLogin\bin\Debug\WLogin.pdb
+F:\02_GIT\Study_C-SHARP\WLogin\WLogin\obj\Debug\WLoginFile.csprojResolveAssemblyReference.cache
+F:\02_GIT\Study_C-SHARP\WLogin\WLogin\obj\Debug\WLogin.Form1.resources
+F:\02_GIT\Study_C-SHARP\WLogin\WLogin\obj\Debug\WLogin.Properties.Resources.resources
+F:\02_GIT\Study_C-SHARP\WLogin\WLogin\obj\Debug\WLogin.btnRegisteRegiste.resources
+F:\02_GIT\Study_C-SHARP\WLogin\WLogin\obj\Debug\WLoginFile.csproj.GenerateResource.Cache

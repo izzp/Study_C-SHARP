@@ -20,20 +20,45 @@ namespace WLogin
 
         private void btnegiste_Click(object sender, EventArgs e)
         {
-            StreamWriter sw = new StreamWriter(@"../../注册.txt", true, Encoding.GetEncoding("gb2312"));
+
             try
             {
-                if (this.txtRegistePassword.Text == txtRegistePassword2.Text)
+                string line;
+                string[] str;
+                bool s = true;
+                StreamReader sr = new StreamReader(@"../../注册.txt", Encoding.GetEncoding("gb2312"));
+                while ((line = sr.ReadLine()) != null)
                 {
-                    sw.WriteLine(this.txtRegisteName.Text + "\t" + this.txtRegistePassword.Text);
-                    MessageBox.Show("注册成功");
+                    str = line.Split('\t');
+                    
+                    if (str[0] == txtRegisteName.Text.Trim())
+                    {
+                        MessageBox.Show("用户已存在！");
+                        s = true;
+                        return;
+                    }
+                    else
+                    {
+                        s = false;
+                    }
+                    
                 }
-                else
+                sr.Close();
+                if(s==false)
                 {
-                    MessageBox.Show("两次密码不一致！");
+                    if (this.txtRegistePassword.Text == txtRegistePassword2.Text)
+                        {
+                            StreamWriter sw = new StreamWriter(@"../../注册.txt", true, Encoding.GetEncoding("gb2312"));
+                            sw.WriteLine(this.txtRegisteName.Text + "\t" + this.txtRegistePassword.Text);
+                            MessageBox.Show("注册成功");
+                            sw.Close();
+                        }
+                        else
+                        {
+                            MessageBox.Show("两次密码不一致！");
+                        }
                 }
-                sw.Close();
-            }
+             }
             catch (Exception ex)
             {
                 MessageBox.Show(ex.Message);

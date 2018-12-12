@@ -1,1 +1,10 @@
-C:\zzp\c#\project\WLogin\WLoginXml\bin\Debug\WLoginXml.exe.config
+F:\02_GIT\Study_C-SHARP\WLogin\WLoginXml\bin\Debug\WLoginXml.exe.config
+F:\02_GIT\Study_C-SHARP\WLogin\WLoginXml\bin\Debug\WLoginXml.exe
+F:\02_GIT\Study_C-SHARP\WLogin\WLoginXml\bin\Debug\WLoginXml.pdb
+F:\02_GIT\Study_C-SHARP\WLogin\WLoginXml\obj\Debug\WLoginXml.csprojResolveAssemblyReference.cache
+F:\02_GIT\Study_C-SHARP\WLogin\WLoginXml\obj\Debug\WLoginXml.Properties.Resources.resources
+F:\02_GIT\Study_C-SHARP\WLogin\WLoginXml\obj\Debug\WLoginXml.csproj.GenerateResource.Cache
+F:\02_GIT\Study_C-SHARP\WLogin\WLoginXml\obj\Debug\WLoginXml.exe
+F:\02_GIT\Study_C-SHARP\WLogin\WLoginXml\obj\Debug\WLoginXml.pdb
+F:\02_GIT\Study_C-SHARP\WLogin\WLoginXml\obj\Debug\WLoginXml.Registe.resources
+F:\02_GIT\Study_C-SHARP\WLogin\WLoginXml\obj\Debug\WLoginXml.From1.resources

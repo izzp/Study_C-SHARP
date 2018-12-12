@@ -5,7 +5,7 @@ VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WLoginFile", "WLogin\WLoginFile.csproj", "{F10D26EE-9C66-4EB1-921E-3DA76C928589}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WLoginXml", "WLoginXml\WLoginXml.csproj", "{F3043BAD-4F2F-4F2F-B415-90B32661EC1F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WLoginXml", "WLoginXml\WLoginXml.csproj", "{D12C7C76-47DD-44D5-9B1D-807F85880D9C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,10 @@ Global
 		{F10D26EE-9C66-4EB1-921E-3DA76C928589}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F10D26EE-9C66-4EB1-921E-3DA76C928589}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F10D26EE-9C66-4EB1-921E-3DA76C928589}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F3043BAD-4F2F-4F2F-B415-90B32661EC1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F3043BAD-4F2F-4F2F-B415-90B32661EC1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F3043BAD-4F2F-4F2F-B415-90B32661EC1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F3043BAD-4F2F-4F2F-B415-90B32661EC1F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D12C7C76-47DD-44D5-9B1D-807F85880D9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D12C7C76-47DD-44D5-9B1D-807F85880D9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D12C7C76-47DD-44D5-9B1D-807F85880D9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D12C7C76-47DD-44D5-9B1D-807F85880D9C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

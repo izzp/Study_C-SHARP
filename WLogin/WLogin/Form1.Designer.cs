@@ -38,9 +38,10 @@
             // 
             // btnLoad
             // 
-            this.btnLoad.Location = new System.Drawing.Point(53, 159);
+            this.btnLoad.Location = new System.Drawing.Point(71, 199);
+            this.btnLoad.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnLoad.Name = "btnLoad";
-            this.btnLoad.Size = new System.Drawing.Size(75, 23);
+            this.btnLoad.Size = new System.Drawing.Size(100, 29);
             this.btnLoad.TabIndex = 0;
             this.btnLoad.Text = "登录";
             this.btnLoad.UseVisualStyleBackColor = true;
@@ -48,9 +49,10 @@
             // 
             // btnRegiste
             // 
-            this.btnRegiste.Location = new System.Drawing.Point(182, 159);
+            this.btnRegiste.Location = new System.Drawing.Point(243, 199);
+            this.btnRegiste.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnRegiste.Name = "btnRegiste";
-            this.btnRegiste.Size = new System.Drawing.Size(75, 23);
+            this.btnRegiste.Size = new System.Drawing.Size(100, 29);
             this.btnRegiste.TabIndex = 1;
             this.btnRegiste.Text = "注册";
             this.btnRegiste.UseVisualStyleBackColor = true;
@@ -59,47 +61,54 @@
             // lblName
             // 
             this.lblName.AutoSize = true;
-            this.lblName.Location = new System.Drawing.Point(68, 49);
+            this.lblName.Location = new System.Drawing.Point(91, 61);
+            this.lblName.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblName.Name = "lblName";
-            this.lblName.Size = new System.Drawing.Size(53, 12);
+            this.lblName.Size = new System.Drawing.Size(67, 15);
             this.lblName.TabIndex = 2;
             this.lblName.Text = "用户名：";
             // 
             // lblPassword
             // 
             this.lblPassword.AutoSize = true;
-            this.lblPassword.Location = new System.Drawing.Point(68, 87);
+            this.lblPassword.Location = new System.Drawing.Point(91, 109);
+            this.lblPassword.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblPassword.Name = "lblPassword";
-            this.lblPassword.Size = new System.Drawing.Size(47, 12);
+            this.lblPassword.Size = new System.Drawing.Size(60, 15);
             this.lblPassword.TabIndex = 3;
             this.lblPassword.Text = "密 码：";
             // 
             // txtName
             // 
-            this.txtName.Location = new System.Drawing.Point(132, 45);
+            this.txtName.Location = new System.Drawing.Point(176, 56);
+            this.txtName.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtName.Name = "txtName";
-            this.txtName.Size = new System.Drawing.Size(100, 21);
+            this.txtName.Size = new System.Drawing.Size(132, 25);
             this.txtName.TabIndex = 4;
             // 
             // txtPassword
             // 
-            this.txtPassword.Location = new System.Drawing.Point(132, 84);
+            this.txtPassword.Location = new System.Drawing.Point(176, 105);
+            this.txtPassword.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtPassword.Name = "txtPassword";
-            this.txtPassword.Size = new System.Drawing.Size(100, 21);
+            this.txtPassword.Size = new System.Drawing.Size(132, 25);
             this.txtPassword.TabIndex = 5;
+            this.txtPassword.UseSystemPasswordChar = true;
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(323, 210);
+            this.ClientSize = new System.Drawing.Size(432, 253);
             this.Controls.Add(this.txtPassword);
             this.Controls.Add(this.txtName);
             this.Controls.Add(this.lblPassword);
             this.Controls.Add(this.lblName);
             this.Controls.Add(this.btnRegiste);
             this.Controls.Add(this.btnLoad);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "登录";
             this.ResumeLayout(false);
             this.PerformLayout();

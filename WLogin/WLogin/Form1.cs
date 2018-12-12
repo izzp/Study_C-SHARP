@@ -18,29 +18,33 @@ namespace WLogin
             InitializeComponent();
         }
         private void btnLoagin_Click(object sender, EventArgs e)
-        {     
+        {
             try
             {
-                StreamReader sr = new StreamReader(@"../../注册.txt", Encoding.GetEncoding("gb2312"));
-                string line;
-                string[] str;
-                while ((line = sr.ReadLine()) != null)
+                if (File.Exists(@"../../注册.txt"))//判断文件是否存在
                 {
-                    str = line.Split('\t');
-                    if (str[0] == txtName.Text.Trim())
+                    StreamReader sr = new StreamReader(@"../../注册.txt", Encoding.GetEncoding("gb2312"));
+                    string line;
+                    string[] str;
+                    while ((line = sr.ReadLine()) != null)
                     {
-                        if (str[1] == txtPassword.Text.Trim())
+                        str = line.Split('\t');
+                        if (str[0] == txtName.Text.Trim())
                         {
-                            MessageBox.Show(" 登录成功");
+                            if (str[1] == txtPassword.Text.Trim())
+                            {
+                                MessageBox.Show(" 登录成功");
+                            }
+                            else
+                            {
+                                MessageBox.Show("用户名或密码错误");
+                            }
                         }
-                        else
-                        {
-                            MessageBox.Show("用户名或密码错误");
-                        }
+
                     }
-                    
+                    sr.Close();
                 }
-                sr.Close();
+                MessageBox.Show("注册信息不存在！,请注册");
             }
             catch (Exception ex)
             {
