@@ -1,0 +1,1 @@
+C:\zzp\c#\project\WLogin\WLoginXml\bin\Debug\WLoginXml.exe.config

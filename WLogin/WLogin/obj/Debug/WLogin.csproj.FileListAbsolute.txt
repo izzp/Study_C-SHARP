@@ -1,0 +1,10 @@
+C:\zzp\c#\project\WLogin\WLogin\bin\Debug\WLogin.exe.config
+C:\zzp\c#\project\WLogin\WLogin\obj\Debug\WLogin.csprojResolveAssemblyReference.cache
+C:\zzp\c#\project\WLogin\WLogin\obj\Debug\WLogin.Form1.resources
+C:\zzp\c#\project\WLogin\WLogin\obj\Debug\WLogin.Properties.Resources.resources
+C:\zzp\c#\project\WLogin\WLogin\obj\Debug\WLogin.csproj.GenerateResource.Cache
+C:\zzp\c#\project\WLogin\WLogin\bin\Debug\WLogin.exe
+C:\zzp\c#\project\WLogin\WLogin\bin\Debug\WLogin.pdb
+C:\zzp\c#\project\WLogin\WLogin\obj\Debug\WLogin.exe
+C:\zzp\c#\project\WLogin\WLogin\obj\Debug\WLogin.pdb
+C:\zzp\c#\project\WLogin\WLogin\obj\Debug\WLogin.btnRegisteRegiste.resources

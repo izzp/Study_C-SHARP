@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WLoginFile", "WLogin\WLoginFile.csproj", "{F10D26EE-9C66-4EB1-921E-3DA76C928589}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WLoginXml", "WLoginXml\WLoginXml.csproj", "{F3043BAD-4F2F-4F2F-B415-90B32661EC1F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F10D26EE-9C66-4EB1-921E-3DA76C928589}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F10D26EE-9C66-4EB1-921E-3DA76C928589}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F10D26EE-9C66-4EB1-921E-3DA76C928589}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F10D26EE-9C66-4EB1-921E-3DA76C928589}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3043BAD-4F2F-4F2F-B415-90B32661EC1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3043BAD-4F2F-4F2F-B415-90B32661EC1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3043BAD-4F2F-4F2F-B415-90B32661EC1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3043BAD-4F2F-4F2F-B415-90B32661EC1F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

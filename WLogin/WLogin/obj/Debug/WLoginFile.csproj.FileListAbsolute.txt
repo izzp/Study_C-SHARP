@@ -1,0 +1,3 @@
+C:\zzp\c#\project\WLogin\WLogin\bin\Debug\WLogin.exe.config
+C:\zzp\c#\project\WLogin\WLogin\obj\Debug\WLogin.exe
+C:\zzp\c#\project\WLogin\WLogin\obj\Debug\WLogin.pdb
