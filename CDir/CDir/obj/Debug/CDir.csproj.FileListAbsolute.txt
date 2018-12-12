@@ -1,0 +1,6 @@
+C:\zzp\c#\project\CDir\CDir\bin\Debug\CDir.exe.config
+C:\zzp\c#\project\CDir\CDir\bin\Debug\CDir.exe
+C:\zzp\c#\project\CDir\CDir\bin\Debug\CDir.pdb
+C:\zzp\c#\project\CDir\CDir\obj\Debug\CDir.csprojResolveAssemblyReference.cache
+C:\zzp\c#\project\CDir\CDir\obj\Debug\CDir.exe
+C:\zzp\c#\project\CDir\CDir\obj\Debug\CDir.pdb

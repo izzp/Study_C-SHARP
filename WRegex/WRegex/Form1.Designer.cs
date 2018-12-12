@@ -54,7 +54,7 @@
             // 
             this.btnSubmit.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.btnSubmit.Location = new System.Drawing.Point(46, 219);
-            this.btnSubmit.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnSubmit.Margin = new System.Windows.Forms.Padding(2);
             this.btnSubmit.Name = "btnSubmit";
             this.btnSubmit.Size = new System.Drawing.Size(108, 22);
             this.btnSubmit.TabIndex = 31;
@@ -131,7 +131,7 @@
             // 
             this.txtID.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.txtID.Location = new System.Drawing.Point(118, 178);
-            this.txtID.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtID.Margin = new System.Windows.Forms.Padding(2);
             this.txtID.Name = "txtID";
             this.txtID.Size = new System.Drawing.Size(136, 21);
             this.txtID.TabIndex = 25;
@@ -140,7 +140,7 @@
             // 
             this.txtMail.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.txtMail.Location = new System.Drawing.Point(118, 147);
-            this.txtMail.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtMail.Margin = new System.Windows.Forms.Padding(2);
             this.txtMail.Name = "txtMail";
             this.txtMail.Size = new System.Drawing.Size(136, 21);
             this.txtMail.TabIndex = 24;
@@ -149,7 +149,7 @@
             // 
             this.txtNum.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.txtNum.Location = new System.Drawing.Point(118, 118);
-            this.txtNum.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtNum.Margin = new System.Windows.Forms.Padding(2);
             this.txtNum.Name = "txtNum";
             this.txtNum.Size = new System.Drawing.Size(136, 21);
             this.txtNum.TabIndex = 23;
@@ -158,7 +158,7 @@
             // 
             this.txtAge.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.txtAge.Location = new System.Drawing.Point(118, 90);
-            this.txtAge.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtAge.Margin = new System.Windows.Forms.Padding(2);
             this.txtAge.Name = "txtAge";
             this.txtAge.Size = new System.Drawing.Size(136, 21);
             this.txtAge.TabIndex = 22;
@@ -167,7 +167,7 @@
             // 
             this.txtName.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.txtName.Location = new System.Drawing.Point(118, 38);
-            this.txtName.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtName.Margin = new System.Windows.Forms.Padding(2);
             this.txtName.Name = "txtName";
             this.txtName.Size = new System.Drawing.Size(136, 21);
             this.txtName.TabIndex = 21;
@@ -241,7 +241,7 @@
             // txtGender
             // 
             this.txtGender.Location = new System.Drawing.Point(118, 65);
-            this.txtGender.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtGender.Margin = new System.Windows.Forms.Padding(2);
             this.txtGender.Name = "txtGender";
             this.txtGender.Size = new System.Drawing.Size(136, 21);
             this.txtGender.TabIndex = 32;
@@ -293,7 +293,8 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label1);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
+            this.MinimumSize = new System.Drawing.Size(450, 300);
             this.Name = "Form1";
             this.Text = "注册";
             this.ResumeLayout(false);
