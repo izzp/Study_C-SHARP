@@ -1,0 +1,6 @@
+C:\zzp\c#\project\CXml\CXml\bin\Debug\CXml.exe.config
+C:\zzp\c#\project\CXml\CXml\bin\Debug\CXml.exe
+C:\zzp\c#\project\CXml\CXml\bin\Debug\CXml.pdb
+C:\zzp\c#\project\CXml\CXml\obj\Debug\CXml.csprojResolveAssemblyReference.cache
+C:\zzp\c#\project\CXml\CXml\obj\Debug\CXml.exe
+C:\zzp\c#\project\CXml\CXml\obj\Debug\CXml.pdb

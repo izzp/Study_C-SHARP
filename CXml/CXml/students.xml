@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<students>
+  <student>
+    <name>李四</name>
+    <no>04</no>
+    <tall>180</tall>
+  </student>
+  <student>
+    <name>王五</name>
+    <no>04</no>
+    <tall>180</tall>
+  </student>
+</students>
