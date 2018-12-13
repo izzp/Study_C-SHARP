@@ -34,6 +34,7 @@ namespace WLogin
                             if (str[1] == txtPassword.Text.Trim())
                             {
                                 MessageBox.Show(" 登录成功");
+                                return;
                             }
                             else
                             {

@@ -51,6 +51,7 @@ namespace WLoginXml
                                      );
                             users.Save(@"..\..\users.xml");
                             MessageBox.Show("注册成功");
+                            this.Close();
                         }
                         else
                         {
@@ -76,6 +77,7 @@ namespace WLoginXml
                                                       );
                         users.Save(@"..\..\users.xml");
                         MessageBox.Show("注册成功");
+                        this.Close();
                     }
                     else
                     {
