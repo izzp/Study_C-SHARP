@@ -1,0 +1,4 @@
+C:\Users\雨心\Documents\Visual Studio 2013\Projects\P224_8\P224_8_14_简易计算器\bin\Debug\P224_8_14_简易计算器.exe.config
+C:\Users\雨心\Documents\Visual Studio 2013\Projects\P224_8\P224_8_14_简易计算器\obj\Debug\P224_8_14_简易计算器.Form1.resources
+C:\Users\雨心\Documents\Visual Studio 2013\Projects\P224_8\P224_8_14_简易计算器\obj\Debug\P224_8_14_简易计算器.Properties.Resources.resources
+C:\Users\雨心\Documents\Visual Studio 2013\Projects\P224_8\P224_8_14_简易计算器\obj\Debug\P224_8_14_简易计算器.csproj.GenerateResource.Cache

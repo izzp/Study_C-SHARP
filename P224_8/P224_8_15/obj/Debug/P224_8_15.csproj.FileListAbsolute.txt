@@ -1,0 +1,9 @@
+C:\Users\雨心\Documents\Visual Studio 2013\Projects\P224_8\P224_8_15\bin\Debug\P224_8_15.exe.config
+C:\Users\雨心\Documents\Visual Studio 2013\Projects\P224_8\P224_8_15\bin\Debug\P224_8_15.exe
+C:\Users\雨心\Documents\Visual Studio 2013\Projects\P224_8\P224_8_15\bin\Debug\P224_8_15.pdb
+C:\Users\雨心\Documents\Visual Studio 2013\Projects\P224_8\P224_8_15\obj\Debug\P224_8_15.csprojResolveAssemblyReference.cache
+C:\Users\雨心\Documents\Visual Studio 2013\Projects\P224_8\P224_8_15\obj\Debug\P224_8_15.Form1.resources
+C:\Users\雨心\Documents\Visual Studio 2013\Projects\P224_8\P224_8_15\obj\Debug\P224_8_15.Properties.Resources.resources
+C:\Users\雨心\Documents\Visual Studio 2013\Projects\P224_8\P224_8_15\obj\Debug\P224_8_15.csproj.GenerateResource.Cache
+C:\Users\雨心\Documents\Visual Studio 2013\Projects\P224_8\P224_8_15\obj\Debug\P224_8_15.exe
+C:\Users\雨心\Documents\Visual Studio 2013\Projects\P224_8\P224_8_15\obj\Debug\P224_8_15.pdb

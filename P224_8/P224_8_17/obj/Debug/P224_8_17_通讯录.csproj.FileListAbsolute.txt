@@ -1,0 +1,8 @@
+C:\Users\雨心\Documents\Visual Studio 2013\Projects\P224_8\P224_8_17\bin\Debug\P224_8_17.exe.config
+C:\Users\雨心\Documents\Visual Studio 2013\Projects\P224_8\P224_8_17\obj\Debug\P224_8_17.Form1.resources
+C:\Users\雨心\Documents\Visual Studio 2013\Projects\P224_8\P224_8_17\obj\Debug\P224_8_17.Properties.Resources.resources
+C:\Users\雨心\Documents\Visual Studio 2013\Projects\P224_8\P224_8_17\obj\Debug\P224_8_17_通讯录.csproj.GenerateResource.Cache
+C:\Users\雨心\Documents\Visual Studio 2013\Projects\P224_8\P224_8_17\bin\Debug\P224_8_17.exe
+C:\Users\雨心\Documents\Visual Studio 2013\Projects\P224_8\P224_8_17\bin\Debug\P224_8_17.pdb
+C:\Users\雨心\Documents\Visual Studio 2013\Projects\P224_8\P224_8_17\obj\Debug\P224_8_17.exe
+C:\Users\雨心\Documents\Visual Studio 2013\Projects\P224_8\P224_8_17\obj\Debug\P224_8_17.pdb
