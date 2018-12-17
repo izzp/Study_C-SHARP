@@ -1,0 +1,9 @@
+C:\Users\雨心\Desktop\WLoginObject\WLoginXml\bin\Debug\WLoginXml.exe.config
+C:\Users\雨心\Desktop\WLoginObject\WLoginXml\obj\Debug\WLogin.Login.resources
+C:\Users\雨心\Desktop\WLoginObject\WLoginXml\obj\Debug\WLoginXml.Properties.Resources.resources
+C:\Users\雨心\Desktop\WLoginObject\WLoginXml\obj\Debug\WLogin.Register.resources
+C:\Users\雨心\Desktop\WLoginObject\WLoginXml\obj\Debug\WLoginXml.csproj.GenerateResource.Cache
+C:\Users\雨心\Desktop\WLoginObject\WLoginXml\bin\Debug\WLoginXml.exe
+C:\Users\雨心\Desktop\WLoginObject\WLoginXml\bin\Debug\WLoginXml.pdb
+C:\Users\雨心\Desktop\WLoginObject\WLoginXml\obj\Debug\WLoginXml.exe
+C:\Users\雨心\Desktop\WLoginObject\WLoginXml\obj\Debug\WLoginXml.pdb
