@@ -6,3 +6,6 @@ C:\Users\雨心\Documents\Visual Studio 2013\Projects\P224_8\P224_8_16\obj\Debug
 C:\Users\雨心\Documents\Visual Studio 2013\Projects\P224_8\P224_8_16\obj\Debug\P224_8_16.csproj.GenerateResource.Cache
 C:\Users\雨心\Documents\Visual Studio 2013\Projects\P224_8\P224_8_16\obj\Debug\P224_8_16.exe
 C:\Users\雨心\Documents\Visual Studio 2013\Projects\P224_8\P224_8_16\obj\Debug\P224_8_16.pdb
+F:\02_GIT\Study_C-SHARP\P224_8\P224_8_16\bin\Debug\P224_8_16.exe.config
+F:\02_GIT\Study_C-SHARP\P224_8\P224_8_16\obj\Debug\P224_8_16.exe
+F:\02_GIT\Study_C-SHARP\P224_8\P224_8_16\obj\Debug\P224_8_16.pdb
