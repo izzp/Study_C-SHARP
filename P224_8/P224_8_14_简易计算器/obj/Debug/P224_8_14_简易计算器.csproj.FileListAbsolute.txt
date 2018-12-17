@@ -1,0 +1,13 @@
+C:\Users\雨心\Documents\Visual Studio 2013\Projects\P224_8\P224_8_14_简易计算器\bin\Debug\P224_8_14_简易计算器.exe.config
+C:\Users\雨心\Documents\Visual Studio 2013\Projects\P224_8\P224_8_14_简易计算器\obj\Debug\P224_8_14_简易计算器.Form1.resources
+C:\Users\雨心\Documents\Visual Studio 2013\Projects\P224_8\P224_8_14_简易计算器\obj\Debug\P224_8_14_简易计算器.Properties.Resources.resources
+C:\Users\雨心\Documents\Visual Studio 2013\Projects\P224_8\P224_8_14_简易计算器\obj\Debug\P224_8_14_简易计算器.csproj.GenerateResource.Cache
+F:\02_GIT\Study_C-SHARP\P224_8\P224_8_14_简易计算器\bin\Debug\P224_8_14_简易计算器.exe.config
+F:\02_GIT\Study_C-SHARP\P224_8\P224_8_14_简易计算器\bin\Debug\P224_8_14_简易计算器.exe
+F:\02_GIT\Study_C-SHARP\P224_8\P224_8_14_简易计算器\bin\Debug\P224_8_14_简易计算器.pdb
+F:\02_GIT\Study_C-SHARP\P224_8\P224_8_14_简易计算器\obj\Debug\P224_8_14_简易计算器.csprojResolveAssemblyReference.cache
+F:\02_GIT\Study_C-SHARP\P224_8\P224_8_14_简易计算器\obj\Debug\P224_8_14_简易计算器.Form1.resources
+F:\02_GIT\Study_C-SHARP\P224_8\P224_8_14_简易计算器\obj\Debug\P224_8_14_简易计算器.Properties.Resources.resources
+F:\02_GIT\Study_C-SHARP\P224_8\P224_8_14_简易计算器\obj\Debug\P224_8_14_简易计算器.csproj.GenerateResource.Cache
+F:\02_GIT\Study_C-SHARP\P224_8\P224_8_14_简易计算器\obj\Debug\P224_8_14_简易计算器.exe
+F:\02_GIT\Study_C-SHARP\P224_8\P224_8_14_简易计算器\obj\Debug\P224_8_14_简易计算器.pdb
