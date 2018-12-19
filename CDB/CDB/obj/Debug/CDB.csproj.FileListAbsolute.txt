@@ -1,0 +1,6 @@
+c:\users\administrator\documents\visual studio 2013\Projects\CDB\CDB\bin\Debug\CDB.exe.config
+C:\Users\Administrator\documents\visual studio 2013\Projects\CDB\CDB\bin\Debug\CDB.exe
+C:\Users\Administrator\documents\visual studio 2013\Projects\CDB\CDB\bin\Debug\CDB.pdb
+C:\Users\Administrator\documents\visual studio 2013\Projects\CDB\CDB\obj\Debug\CDB.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\documents\visual studio 2013\Projects\CDB\CDB\obj\Debug\CDB.exe
+C:\Users\Administrator\documents\visual studio 2013\Projects\CDB\CDB\obj\Debug\CDB.pdb
