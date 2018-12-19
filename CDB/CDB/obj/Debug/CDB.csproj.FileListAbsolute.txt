@@ -4,3 +4,9 @@ C:\Users\Administrator\documents\visual studio 2013\Projects\CDB\CDB\bin\Debug\C
 C:\Users\Administrator\documents\visual studio 2013\Projects\CDB\CDB\obj\Debug\CDB.csprojResolveAssemblyReference.cache
 C:\Users\Administrator\documents\visual studio 2013\Projects\CDB\CDB\obj\Debug\CDB.exe
 C:\Users\Administrator\documents\visual studio 2013\Projects\CDB\CDB\obj\Debug\CDB.pdb
+C:\zzp\c#\git\Study_C-SHARP\CDB\CDB\bin\Debug\CDB.exe.config
+C:\zzp\c#\git\Study_C-SHARP\CDB\CDB\obj\Debug\CDB.exe
+C:\zzp\c#\git\Study_C-SHARP\CDB\CDB\obj\Debug\CDB.pdb
+C:\zzp\c#\git\Study_C-SHARP\CDB\CDB\obj\Debug\CDB.csprojResolveAssemblyReference.cache
+C:\zzp\c#\git\Study_C-SHARP\CDB\CDB\bin\Debug\CDB.exe
+C:\zzp\c#\git\Study_C-SHARP\CDB\CDB\bin\Debug\CDB.pdb
