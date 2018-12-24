@@ -23,7 +23,6 @@ namespace WLogin
             u.UserName = txtUserName.Text.Trim();
             u.Password = txtPassword.Text.Trim();
             if(DBOption.readDB(u))
-            //if (txtUserName.Text.Trim() == "admin" && txtPassword.Text.Trim() == "123456")
             {
                 MessageBox.Show("登录成功！", "欢迎", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
             }

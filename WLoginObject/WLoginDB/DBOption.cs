@@ -16,7 +16,7 @@ namespace WLogin
             SqlCommand comm = null;
             try
             {
-                conn = new SqlConnection(@"Data Source=DESKTOP-8PIQO9B;Initial Catalog=users;Integrated Security=True;Connect Timeout=15;Encrypt=False;TrustServerCertificate=False");
+                conn = new SqlConnection(@"Data Source=506-63;Initial Catalog=users;Integrated Security=True");
                 conn.Open();
                 comm = new SqlCommand("INSERT INTO User VALUES ('" + u.UserName + "','" + u.Password + "')", conn);
                 if (comm.ExecuteNonQuery() > 0)
@@ -39,7 +39,7 @@ namespace WLogin
         {
             bool result = false;
             SqlConnection conn = null;
-            conn = new SqlConnection(@"Data Source=DESKTOP-8PIQO9B;Initial Catalog=users;Integrated Security=True;Connect Timeout=15;Encrypt=False;TrustServerCertificate=False");
+            conn = new SqlConnection(@"Data Source=506-63;Initial Catalog=users;Integrated Security=True");
             conn.Open();
             try
             {
@@ -73,7 +73,7 @@ namespace WLogin
         {
             bool result = false;
             SqlConnection conn = null;
-            conn = new SqlConnection(@"Data Source=DESKTOP-8PIQO9B;Initial Catalog=users;Integrated Security=True;Connect Timeout=15;Encrypt=False;TrustServerCertificate=False");
+            conn = new SqlConnection(@"Data Source=506-63;Initial Catalog=users;Integrated Security=True");
             conn.Open();
             try
             {
@@ -106,7 +106,7 @@ namespace WLogin
         {
             bool result = false;
             SqlConnection conn = null;
-            conn = new SqlConnection(@"Data Source=DESKTOP-8PIQO9B;Initial Catalog=users;Integrated Security=True;Connect Timeout=15;Encrypt=False;TrustServerCertificate=False");
+            conn = new SqlConnection(@"Data Source=506-63;Initial Catalog=users;Integrated Security=True");
             conn.Open();
             try
             {

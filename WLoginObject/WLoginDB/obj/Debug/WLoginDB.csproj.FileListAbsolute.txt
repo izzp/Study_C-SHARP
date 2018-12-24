@@ -8,3 +8,13 @@ F:\02_GIT\Study_C-SHARP\WLoginObject\WLoginDB\bin\Debug\WLoginDB.exe
 F:\02_GIT\Study_C-SHARP\WLoginObject\WLoginDB\bin\Debug\WLoginDB.pdb
 F:\02_GIT\Study_C-SHARP\WLoginObject\WLoginDB\obj\Debug\WLoginDB.exe
 F:\02_GIT\Study_C-SHARP\WLoginObject\WLoginDB\obj\Debug\WLoginDB.pdb
+C:\zzp\c#\git\Study_C-SHARP\WLoginObject\WLoginDB\bin\Debug\WLoginDB.exe.config
+C:\zzp\c#\git\Study_C-SHARP\WLoginObject\WLoginDB\obj\Debug\WLoginDB.exe
+C:\zzp\c#\git\Study_C-SHARP\WLoginObject\WLoginDB\obj\Debug\WLoginDB.pdb
+C:\zzp\c#\git\Study_C-SHARP\WLoginObject\WLoginDB\bin\Debug\WLoginDB.exe
+C:\zzp\c#\git\Study_C-SHARP\WLoginObject\WLoginDB\bin\Debug\WLoginDB.pdb
+C:\zzp\c#\git\Study_C-SHARP\WLoginObject\WLoginDB\obj\Debug\WLoginDB.csprojResolveAssemblyReference.cache
+C:\zzp\c#\git\Study_C-SHARP\WLoginObject\WLoginDB\obj\Debug\WLogin.Login.resources
+C:\zzp\c#\git\Study_C-SHARP\WLoginObject\WLoginDB\obj\Debug\WLoginDB.Properties.Resources.resources
+C:\zzp\c#\git\Study_C-SHARP\WLoginObject\WLoginDB\obj\Debug\WLogin.Register.resources
+C:\zzp\c#\git\Study_C-SHARP\WLoginObject\WLoginDB\obj\Debug\WLoginDB.csproj.GenerateResource.Cache
