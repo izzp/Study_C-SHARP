@@ -1,0 +1,10 @@
+F:\02_GIT\Study_C-SHARP\WLoginObject\WLoginDB\bin\Debug\WLoginDB.exe.config
+F:\02_GIT\Study_C-SHARP\WLoginObject\WLoginDB\obj\Debug\WLoginDB.csprojResolveAssemblyReference.cache
+F:\02_GIT\Study_C-SHARP\WLoginObject\WLoginDB\obj\Debug\WLogin.Login.resources
+F:\02_GIT\Study_C-SHARP\WLoginObject\WLoginDB\obj\Debug\WLoginDB.Properties.Resources.resources
+F:\02_GIT\Study_C-SHARP\WLoginObject\WLoginDB\obj\Debug\WLogin.Register.resources
+F:\02_GIT\Study_C-SHARP\WLoginObject\WLoginDB\obj\Debug\WLoginDB.csproj.GenerateResource.Cache
+F:\02_GIT\Study_C-SHARP\WLoginObject\WLoginDB\bin\Debug\WLoginDB.exe
+F:\02_GIT\Study_C-SHARP\WLoginObject\WLoginDB\bin\Debug\WLoginDB.pdb
+F:\02_GIT\Study_C-SHARP\WLoginObject\WLoginDB\obj\Debug\WLoginDB.exe
+F:\02_GIT\Study_C-SHARP\WLoginObject\WLoginDB\obj\Debug\WLoginDB.pdb

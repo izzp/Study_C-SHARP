@@ -7,3 +7,6 @@ C:\Users\雨心\Desktop\WLoginObject\WLoginXml\bin\Debug\WLoginXml.exe
 C:\Users\雨心\Desktop\WLoginObject\WLoginXml\bin\Debug\WLoginXml.pdb
 C:\Users\雨心\Desktop\WLoginObject\WLoginXml\obj\Debug\WLoginXml.exe
 C:\Users\雨心\Desktop\WLoginObject\WLoginXml\obj\Debug\WLoginXml.pdb
+F:\02_GIT\Study_C-SHARP\WLoginObject\WLoginXml\bin\Debug\WLoginXml.exe.config
+F:\02_GIT\Study_C-SHARP\WLoginObject\WLoginXml\obj\Debug\WLoginXml.exe
+F:\02_GIT\Study_C-SHARP\WLoginObject\WLoginXml\obj\Debug\WLoginXml.pdb

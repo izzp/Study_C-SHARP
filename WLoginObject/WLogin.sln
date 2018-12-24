@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WLoginFile", "WLogin\WLogin
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WLoginXml", "WLoginXml\WLoginXml.csproj", "{D228437E-4EE7-4433-8557-2F989AD4C241}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WLoginDB", "WLoginDB\WLoginDB.csproj", "{205246F5-E7B3-46EB-B6E8-D7A78F50B432}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{D228437E-4EE7-4433-8557-2F989AD4C241}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D228437E-4EE7-4433-8557-2F989AD4C241}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D228437E-4EE7-4433-8557-2F989AD4C241}.Release|Any CPU.Build.0 = Release|Any CPU
+		{205246F5-E7B3-46EB-B6E8-D7A78F50B432}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{205246F5-E7B3-46EB-B6E8-D7A78F50B432}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{205246F5-E7B3-46EB-B6E8-D7A78F50B432}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{205246F5-E7B3-46EB-B6E8-D7A78F50B432}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
