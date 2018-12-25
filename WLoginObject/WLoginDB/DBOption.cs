@@ -16,12 +16,12 @@ namespace WLogin
             SqlCommand comm = null;
             try
             {
-                conn = new SqlConnection(@"Data Source=506-63;Initial Catalog=users;Integrated Security=True");
+                conn = new SqlConnection(@"Data Source=DESKTOP-8PIQO9B;Initial Catalog=users;Integrated Security=True");
                 conn.Open();
-                comm = new SqlCommand("INSERT INTO User VALUES ('" + u.UserName + "','" + u.Password + "')", conn);
+                comm = new SqlCommand("INSERT INTO users VALUES ('" + u.UserName + "','" + u.Password + "')", conn); 
                 if (comm.ExecuteNonQuery() > 0)
                 {
-                    result = true;
+                    result = true;                  
                 }
             }
             catch (Exception ex)
@@ -39,11 +39,11 @@ namespace WLogin
         {
             bool result = false;
             SqlConnection conn = null;
-            conn = new SqlConnection(@"Data Source=506-63;Initial Catalog=users;Integrated Security=True");
+            conn = new SqlConnection(@"Data Source=DESKTOP-8PIQO9B;Initial Catalog=users;Integrated Security=True");
             conn.Open();
             try
             {
-                SqlCommand comm = new SqlCommand("select * from User", conn);
+                SqlCommand comm = new SqlCommand("select * from users", conn);
                 SqlDataReader reader = comm.ExecuteReader();
                 if (reader.HasRows)
                 {
@@ -73,11 +73,11 @@ namespace WLogin
         {
             bool result = false;
             SqlConnection conn = null;
-            conn = new SqlConnection(@"Data Source=506-63;Initial Catalog=users;Integrated Security=True");
+            conn = new SqlConnection(@"Data Source=DESKTOP-8PIQO9B;Initial Catalog=users;Integrated Security=True");
             conn.Open();
             try
             {
-                SqlCommand comm = new SqlCommand("select * from User", conn);
+                SqlCommand comm = new SqlCommand("select * from users", conn);
                 SqlDataReader reader = comm.ExecuteReader();
                 if (reader.HasRows)
                 {
@@ -106,11 +106,11 @@ namespace WLogin
         {
             bool result = false;
             SqlConnection conn = null;
-            conn = new SqlConnection(@"Data Source=506-63;Initial Catalog=users;Integrated Security=True");
+            conn = new SqlConnection(@"Data Source=DESKTOP-8PIQO9B;Initial Catalog=users;Integrated Security=True");
             conn.Open();
             try
             {
-                SqlCommand comm = new SqlCommand("update User set Password = '" + u.Password + "' where UserName = '" + u.UserName + "'", conn);
+                SqlCommand comm = new SqlCommand("update users set Password = '" + u.Password + "' where UserName = '" + u.UserName + "'", conn);
                 if (comm.ExecuteNonQuery() > 0)
                 {
                     result = true;
